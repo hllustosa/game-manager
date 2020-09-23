@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameManagement.Infra\GameManagement.Infra.csproj" />
+    <ProjectReference Include="..\GameManagement.Repositories.Interfaces\GameManagement.Repositories.Interfaces.csproj" />
+    <ProjectReference Include="..\GameManagement.services.interfaces\GameManagement.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

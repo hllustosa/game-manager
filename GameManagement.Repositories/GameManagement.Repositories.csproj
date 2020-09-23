@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameManagement.Infra\GameManagement.Infra.csproj" />
+    <ProjectReference Include="..\GameManagement.Repositories.Interfaces\GameManagement.Repositories.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
