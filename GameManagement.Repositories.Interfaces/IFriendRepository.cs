@@ -11,6 +11,8 @@ namespace GameManagement.Repositories.Interfaces
 
         Friend FindFriendById(long id);
 
+        Friend FindFriendByUserId(string id);
+
         void Save(Friend game);
 
         void Update(Friend game);

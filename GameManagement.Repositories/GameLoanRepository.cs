@@ -16,6 +16,8 @@ namespace GameManagement.Repositories
 
         private static readonly string BETWEEN_FILTER = @"WHERE {0} BETWEEN :initialDate AND :finalDate ";
 
+        private static readonly string FRIEND_FILTER = @"WHERE {0} BETWEEN :initialDate AND :finalDate AND GameLoans.FriendId = :friendId ";
+
         private static readonly string ORDER_BY = @"ORDER BY {0} DESC ";
 
         private static readonly string PAGINATION = @"LIMIT :limit offset :offset ";
@@ -30,17 +32,24 @@ namespace GameManagement.Repositories
             return FindById(SELECT, "GameLoans.Id", id);
         }
 
-        public PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate)
+        private PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate, long? friendId)
         {
             var limit = pageSize;
             var offset = (page - 1) * pageSize;
             long totalCount = 0;
             var whereClause = "";
 
-            if (initialDate != null && finalDate != null)
+            if (friendId == null && (initialDate != null || finalDate != null))
             {
                 whereClause = String.Format(BETWEEN_FILTER, "LoanDate");
             }
+            else if (friendId != null)
+            {
+                whereClause = String.Format(FRIEND_FILTER, "LoanDate");
+            }
+
+            initialDate = initialDate == null ? DateTime.MinValue : initialDate;
+            finalDate = finalDate == null ? DateTime.MaxValue : finalDate;
 
             var query = SELECT;
             query += whereClause;
@@ -56,10 +65,20 @@ namespace GameManagement.Repositories
                     totalCount = count;
                     return gameLoan;
                 },
-                new { initialDate, finalDate, limit, offset },
+                new { initialDate, finalDate, friendId, limit, offset },
                 splitOn: "sp0, sp1, count").AsList();
 
             return new PagedResult<GameLoan>(models, page, totalCount);
+        }
+
+        public PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate)
+        {
+            return FindGameLoansByDate(page, pageSize, initialDate, finalDate, null);
+        }
+
+        public PagedResult<GameLoan> FindUserGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate, long friendId)
+        {
+            return FindGameLoansByDate(page, pageSize, initialDate, finalDate, friendId);
         }
 
         public new void Save(GameLoan gameLoan)
@@ -76,5 +95,7 @@ namespace GameManagement.Repositories
         {
             base.Delete(gameLoan);
         }
+
+ 
     }
 }

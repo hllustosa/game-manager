@@ -13,11 +13,9 @@ export function handleErrorResponse(error) {
     if (data.errors) {
       alert(data.errors[0].ErrorMsg);
     }
+  } else {
+    alert("Ocorreu um erro durante comunicação com o servidor");
   }
-}
-
-export function calcPageCount(itensCount) {
-  return itensCount % 10 === 0 ? itensCount / 10 : itensCount / 10 + 1;
 }
 
 export function adjustDate(value) {
@@ -38,18 +36,6 @@ export function Code2Media(code) {
     return "DVD";
   } else if (code === 3) {
     return "BLURAY";
-  }
-}
-
-export function Media2Code(media) {
-  if (media === "Carturcho") {
-    return 0;
-  } else if (media === "CD") {
-    return 1;
-  } else if (media === "DVD") {
-    return 2;
-  } else if (media === "BLURAY") {
-    return 3;
   }
 }
 

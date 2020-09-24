@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace GameManagement.Domain
 {
@@ -13,5 +12,7 @@ namespace GameManagement.Domain
         public string Token { get; set; }
 
         public DateTime TokenExp { get; set; }
+
+        public IList<string> Roles { get; set; }
     }
 }

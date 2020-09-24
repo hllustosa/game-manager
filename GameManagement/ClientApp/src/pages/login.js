@@ -9,9 +9,18 @@ import { Login } from "../data/User";
 import store from "../redux/store";
 import { getLogin } from "../redux/actions";
 import paths from "../paths.json";
+import cover from "../static/cover.jpg";
 
-const styles = (theme) => ({
+const styles = () => ({
+  background: {
+    backgroundImage: `url(${cover})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    width: "100vw",
+    height: "100vh",
+  },
   root: {
+    backgroundColor: "rgba(255, 255, 255, 0.9)",
     width: "340px",
     padding: "25px",
     maxWidth: "95%",
@@ -38,57 +47,57 @@ function LoginPage(props) {
         props.history.push(paths.gameLoans);
       })
       .catch((e) => {
-        setError(e.response.data.errors[0].ErrorMsg)
+        setError(e.response.data.errors[0].ErrorMsg);
       });
   }
 
   return (
-    <Paper className={classes.root} elevation={3}>
-      <Grid container direction="column" justify="center" spacing={2}>
-        <Grid item>
-          <Typography align="center">
-            {"Games Loan Manager Login"}
-          </Typography>
+    <div className={classes.background}>
+      <Paper className={classes.root} elevation={3}>
+        <Grid container direction="column" justify="center" spacing={2}>
+          <Grid item>
+            <Typography align="center">{"Games Loan Manager Login"}</Typography>
+          </Grid>
+          <Grid item>
+            <TextField
+              fullWidth
+              id="user-name"
+              label="Usuário"
+              variant="outlined"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              error={error ? true : false}
+              helperText={error}
+            />
+          </Grid>
+          <Grid item>
+            <TextField
+              fullWidth
+              id="user-password"
+              label="Senha"
+              type="password"
+              variant="outlined"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              error={error ? true : false}
+            />
+          </Grid>
+          <Grid item>
+            <Button
+              fullWidth
+              id="btn-login"
+              color="primary"
+              variant="contained"
+              onClick={() => {
+                handleLogin(username, password);
+              }}
+            >
+              Entrar
+            </Button>
+          </Grid>
         </Grid>
-        <Grid item>
-          <TextField
-            fullWidth
-            id="user-name"
-            label="Usuário"
-            variant="outlined"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            error = {error ? true : false}
-            helperText = {error}
-          />
-        </Grid>
-        <Grid item>
-          <TextField
-            fullWidth
-            id="user-password"
-            label="Senha"
-            type="password"
-            variant="outlined"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            error = {error ? true : false}
-          />
-        </Grid>
-        <Grid item>
-          <Button
-            fullWidth
-            id="btn-login"
-            color="primary"
-            variant="contained"
-            onClick={() => {
-              handleLogin(username, password);
-            }}
-          >
-            Entrar
-          </Button>
-        </Grid>
-      </Grid>
-    </Paper>
+      </Paper>
+    </div>
   );
 }
 

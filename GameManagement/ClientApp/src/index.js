@@ -6,7 +6,9 @@ import store from "./redux/store";
 import Paths from "./paths.json";
 import Login from "./pages/login";
 import GameLoans from "./pages/game-loans";
+import UserGameLoans from "./pages/user-game-loans";
 import Games from "./pages/games";
+import UserGames from "./pages/user-games";
 import Friends from "./pages/friends";
 
 const baseUrl = document.getElementsByTagName("base")[0].getAttribute("href");
@@ -19,11 +21,16 @@ function App(props) {
         <Switch>
           <Route component={Login} />
         </Switch>
-      ) : (
+      ) : props.user.roles[0] === "admin" ? (
         <Switch>
           <Route path={Paths.games} exact component={Games} />
           <Route path={Paths.friends} exact component={Friends} />
           <Route component={GameLoans} />
+        </Switch>
+      ) : (
+        <Switch>
+          <Route path={Paths.games} exact component={UserGames} />
+          <Route component={UserGameLoans} />
         </Switch>
       )}
     </BrowserRouter>

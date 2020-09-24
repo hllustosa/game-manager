@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 import Divider from "@material-ui/core/Divider";
 import Title from "../components/Title";
 import { TextField, MenuItem } from "@material-ui/core";
-import { SaveGame, UpdateGame } from "../data/Game";
+import { SaveFriend, UpdateFriend } from "../data/Friend";
 import { handleErrorResponse, Code2Media } from "../data/Utils";
 
 const styles = () => ({
@@ -22,40 +22,24 @@ const styles = () => ({
   },
 });
 
-function GameForm(props) {
+function FriendForm(props) {
   const { classes } = props;
-  const newGame = props.game ? false : true;
-  const [game, setGame] = useState(
-    newGame
-      ? { name: "", mediaType: 0, plataformName: "", isLent: false }
-      : props.game
-  );
+  const newFriend = props.friend ? false : true;
+  const [friend, setFriend] = useState(newFriend ? { name: "" } : props.friend);
 
   const handleClose = () => {
     if (props.handleClose) props.handleClose();
   };
 
   const onNameChange = (e) => {
-    const newGame = Object.assign({}, game, {});
-    newGame.name = e.target.value;
-    setGame(newGame);
-  };
-
-  const onMediaChange = (e) => {
-    const newGame = Object.assign({}, game, {});
-    newGame.mediaType = e.target.value;
-    setGame(newGame);
-  };
-
-  const onPlatformChange = (e) => {
-    const newGame = Object.assign({}, game, {});
-    newGame.plataformName = e.target.value;
-    setGame(newGame);
+    const newFriend = Object.assign({}, friend, {});
+    newFriend.name = e.target.value;
+    setFriend(newFriend);
   };
 
   const save = () => {
-    if (newGame) {
-      SaveGame(game)
+    if (newFriend) {
+      SaveFriend(friend)
         .then(() => {
           handleClose();
         })
@@ -63,7 +47,7 @@ function GameForm(props) {
           handleErrorResponse(e);
         });
     } else {
-      UpdateGame(game)
+      UpdateFriend(friend)
         .then(() => {
           handleClose();
         })
@@ -83,7 +67,7 @@ function GameForm(props) {
       <Paper className={classes.root}>
         <Grid container direction="column" spacing={2}>
           <Grid item>
-            <Title>Cadastro de Games</Title>
+            <Title>Cadastro de Amigo</Title>
           </Grid>
           <Divider style={{ marginBottom: "20px" }} />
           <Grid item>
@@ -92,42 +76,8 @@ function GameForm(props) {
               id="name"
               label="Nome"
               variant="outlined"
-              value={game.name}
+              value={friend.name}
               onChange={onNameChange}
-            />
-          </Grid>
-          <Grid item>
-            <TextField
-              fullWidth
-              select
-              id="media"
-              label="Tipo de Mídia"
-              variant="outlined"
-              value={game.mediaType}
-              onChange={onMediaChange}
-            >
-              <MenuItem key={0} value={0}>
-                {Code2Media(0)}
-              </MenuItem>
-              <MenuItem key={1} value={1}>
-                {Code2Media(1)}
-              </MenuItem>
-              <MenuItem key={2} value={2}>
-                {Code2Media(2)}
-              </MenuItem>
-              <MenuItem key={3} value={3}>
-                {Code2Media(3)}
-              </MenuItem>
-            </TextField>
-          </Grid>
-          <Grid item>
-            <TextField
-              fullWidth
-              id="platform"
-              label="Plataforma"
-              variant="outlined"
-              value={game.plataformName}
-              onChange={onPlatformChange}
             />
           </Grid>
           <Divider style={{ marginBottom: "20px" }} />
@@ -142,4 +92,4 @@ function GameForm(props) {
   );
 }
 
-export default withStyles(styles)(GameForm);
+export default withStyles(styles)(FriendForm);

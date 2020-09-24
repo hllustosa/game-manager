@@ -7,6 +7,8 @@ namespace GameManagement.Services.Interfaces
     {
         PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate);
 
+        PagedResult<GameLoan> FindUserGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate, long friendId);
+
         GameLoan FindGameLoanById(long id);
 
         GameLoan Save(GameLoan gameLoan);

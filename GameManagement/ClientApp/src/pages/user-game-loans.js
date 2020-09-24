@@ -8,21 +8,18 @@ import Grid from "@material-ui/core/Grid";
 import TextField from "@material-ui/core/TextField";
 import TableRow from "@material-ui/core/TableRow";
 import TableHead from "@material-ui/core/TableHead";
-import Button from "@material-ui/core/Button";
 import Backdrop from "@material-ui/core/Backdrop";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import { Typography } from "@material-ui/core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { withStyles } from "@material-ui/core/styles";
-import { GetGames, Delete, DeleteGame } from "../data/Game";
-import { handleErrorResponse, Code2Media } from "../data/Utils";
+import { GetLoans } from "../data/UserFriend";
+import { handleErrorResponse, adjustDate } from "../data/Utils";
 import Title from "../components/Title";
 import DetailsIcon from "../components/DetailsIcon";
 import DeleteIcon from "../components/DeleteIcon";
 import ConfirmationModal from "../components/ConfirmationModal";
 
-import GameForm from "../components/GameForm";
+import GameLoanForm from "../components/GameLoanForm";
 
 const styles = (theme) => ({
   root: {
@@ -34,27 +31,23 @@ const styles = (theme) => ({
   },
 });
 
-function Games(props) {
+function GameLoans(props) {
   const { classes } = props;
   const [rows, setRows] = useState([]);
   const [page, setPage] = useState(0);
   const [itensCount, setItensCount] = useState(0);
-  const [search, setSearch] = useState("");
-  const [selectedGame, setSelectedGame] = useState({});
+  const [initial, setInitial] = useState("");
+  const [final, setFinal] = useState("");
   const [loading, setLoading] = useState(true);
-  const [showConfirmation, setShowConfirmation] = useState(false);
-  const [showForm, setShowForm] = useState(false);
 
   const RenderHeader = () => {
     return (
       <TableHead>
         <TableRow>
           <TableHeaderCell>Jogo</TableHeaderCell>
-          <TableHeaderCell>Mídia</TableHeaderCell>
-          <TableHeaderCell>Plataforma</TableHeaderCell>
+          <TableHeaderCell>Amigo</TableHeaderCell>
+          <TableHeaderCell>Data</TableHeaderCell>
           <TableHeaderCell>Status</TableHeaderCell>
-          <TableHeaderCell></TableHeaderCell>
-          <TableHeaderCell></TableHeaderCell>
         </TableRow>
       </TableHead>
     );
@@ -64,32 +57,21 @@ function Games(props) {
     return (
       <TableRow hover key={`row-loans-${index}`}>
         <StyledTableCell component="th" scope="row">
-          {row.name}
+          {row.game.name}
         </StyledTableCell>
-        <StyledTableCell>{Code2Media(row.mediaType)}</StyledTableCell>
-        <StyledTableCell>{row.plataformName}</StyledTableCell>
+        <StyledTableCell>{row.friend.name}</StyledTableCell>
         <StyledTableCell style={{ width: 160 }}>
-          {row.isLent ? (
+          {adjustDate(row.loanDate)}
+        </StyledTableCell>
+        <StyledTableCell style={{ width: 160 }}>
+          {row.isActive ? (
             <Typography style={{ color: "blue" }}> Emprestado </Typography>
           ) : (
-            <Typography style={{ color: "green" }}> Disponível </Typography>
+            <Typography style={{ color: "green" }}>
+              {" "}
+              Devolvido {adjustDate(row.returnDate)}{" "}
+            </Typography>
           )}
-        </StyledTableCell>
-        <StyledTableCell style={{ width: 30 }}>
-          <DetailsIcon
-            onClick={() => {
-              setSelectedGame(row);
-              setShowForm(true);
-            }}
-          />
-        </StyledTableCell>
-        <StyledTableCell style={{ width: 30 }}>
-          <DeleteIcon
-            onClick={() => {
-              setSelectedGame(row);
-              setShowConfirmation(true);
-            }}
-          />
         </StyledTableCell>
       </TableRow>
     );
@@ -97,16 +79,16 @@ function Games(props) {
 
   useEffect(() => {
     setPage(0);
-    loadGames();
-  }, [search]);
+    loadLoans();
+  }, [initial, final]);
 
   useEffect(() => {
-    loadGames();
+    loadLoans();
   }, [page]);
 
-  const loadGames = () => {
+  const loadLoans = () => {
     setLoading(true);
-    GetGames(page + 1, search)
+    GetLoans(page + 1, initial, final)
       .then((response) => {
         setRows(response.data.data);
         setItensCount(response.data.totalItensCount);
@@ -118,26 +100,8 @@ function Games(props) {
       });
   };
 
-  const deleteGame = () => {
-    setLoading(true);
-    DeleteGame(selectedGame)
-      .then(() => {
-        setPage(0);
-        loadGames();
-      })
-      .catch((e) => {
-        handleErrorResponse(e);
-        setLoading(false);
-      });
-  };
-
   const handleChangePage = (newPage) => {
     setPage(newPage);
-  };
-
-  const handleCloseForm = () => {
-    setShowForm(false);
-    loadGames();
   };
 
   return (
@@ -146,7 +110,7 @@ function Games(props) {
         <CircularProgress color="primary" />
       </Backdrop>
       <Grid container direction="row" justify="flex-start">
-        <Title>{"Games"}</Title>
+        <Title>{"Empréstimos"}</Title>
       </Grid>
       <Grid
         container
@@ -158,29 +122,31 @@ function Games(props) {
         <Grid item>
           <TextField
             id="date"
-            label="Buscar Jogos"
-            type="text"
-            value={search}
+            label="Data Inicial"
+            type="date"
+            value={initial}
             onChange={(e) => {
-              setSearch(e.target.value);
+              setInitial(e.target.value);
             }}
+            className={classes.textField}
             InputLabelProps={{
               shrink: true,
             }}
           />
         </Grid>
         <Grid item>
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={() => {
-              setSelectedGame(null);
-              setShowForm(true);
+          <TextField
+            id="date"
+            label="Data Final"
+            type="date"
+            value={final}
+            onChange={(e) => {
+              setFinal(e.target.value);
             }}
-          >
-            <FontAwesomeIcon style={{ marginRight: "5px" }} icon={faPlus} />{" "}
-            {"Novo"}
-          </Button>
+            InputLabelProps={{
+              shrink: true,
+            }}
+          />
         </Grid>
       </Grid>
       <Grid item style={{ paddingTop: "15px" }}>
@@ -193,20 +159,8 @@ function Games(props) {
           handleChangePage={handleChangePage}
         />
       </Grid>
-      <ConfirmationModal
-        open={showConfirmation}
-        handleOk={() => deleteGame()}
-        handleClose={() => setShowConfirmation(false)}
-      />
-      {showForm && (
-        <GameForm
-          open={showForm}
-          handleClose={handleCloseForm}
-          game={selectedGame}
-        />
-      )}
     </Grid>
   );
 }
 
-export default withBasePage(withStyles(styles)(Games));
+export default withBasePage(withStyles(styles)(GameLoans));

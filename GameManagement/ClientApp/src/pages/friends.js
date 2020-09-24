@@ -11,20 +11,19 @@ import TableHead from "@material-ui/core/TableHead";
 import Button from "@material-ui/core/Button";
 import Backdrop from "@material-ui/core/Backdrop";
 import CircularProgress from "@material-ui/core/CircularProgress";
-import { Typography } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { withStyles } from "@material-ui/core/styles";
-import { GetLoans, SaveLoan, UpdateLoan, DeleteLoan } from "../data/GameLoans";
-import { handleErrorResponse, adjustDate } from "../data/Utils";
+import { GetFriends, DeleteFriend } from "../data/Friend";
+import { handleErrorResponse } from "../data/Utils";
 import Title from "../components/Title";
 import DetailsIcon from "../components/DetailsIcon";
 import DeleteIcon from "../components/DeleteIcon";
 import ConfirmationModal from "../components/ConfirmationModal";
 
-import GameLoanForm from "../components/GameLoanForm";
+import FriendForm from "../components/FriendForm";
 
-const styles = (theme) => ({
+const styles = () => ({
   root: {
     width: "100%",
   },
@@ -34,14 +33,13 @@ const styles = (theme) => ({
   },
 });
 
-function GameLoans(props) {
+function Friends(props) {
   const { classes } = props;
   const [rows, setRows] = useState([]);
   const [page, setPage] = useState(0);
   const [itensCount, setItensCount] = useState(0);
-  const [initial, setInitial] = useState("");
-  const [final, setFinal] = useState("");
-  const [selectedLoan, setSelectedLoan] = useState({});
+  const [search, setSearch] = useState("");
+  const [selectedFriend, setSelectedFriend] = useState({});
   const [loading, setLoading] = useState(true);
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [showForm, setShowForm] = useState(false);
@@ -50,10 +48,7 @@ function GameLoans(props) {
     return (
       <TableHead>
         <TableRow>
-          <TableHeaderCell>Jogo</TableHeaderCell>
           <TableHeaderCell>Amigo</TableHeaderCell>
-          <TableHeaderCell>Data</TableHeaderCell>
-          <TableHeaderCell>Status</TableHeaderCell>
           <TableHeaderCell></TableHeaderCell>
           <TableHeaderCell></TableHeaderCell>
         </TableRow>
@@ -65,26 +60,12 @@ function GameLoans(props) {
     return (
       <TableRow hover key={`row-loans-${index}`}>
         <StyledTableCell component="th" scope="row">
-          {row.game.name}
-        </StyledTableCell>
-        <StyledTableCell>{row.friend.name}</StyledTableCell>
-        <StyledTableCell style={{ width: 160 }}>
-          {adjustDate(row.loanDate)}
-        </StyledTableCell>
-        <StyledTableCell style={{ width: 160 }}>
-          {row.isActive ? (
-            <Typography style={{ color: "blue" }}> Emprestado </Typography>
-          ) : (
-            <Typography style={{ color: "green" }}>
-              {" "}
-              Devolvido {adjustDate(row.returnDate)}{" "}
-            </Typography>
-          )}
+          {row.name}
         </StyledTableCell>
         <StyledTableCell style={{ width: 30 }}>
           <DetailsIcon
             onClick={() => {
-              setSelectedLoan(row);
+              setSelectedFriend(row);
               setShowForm(true);
             }}
           />
@@ -92,7 +73,7 @@ function GameLoans(props) {
         <StyledTableCell style={{ width: 30 }}>
           <DeleteIcon
             onClick={() => {
-              setSelectedLoan(row);
+              setSelectedFriend(row);
               setShowConfirmation(true);
             }}
           />
@@ -103,16 +84,16 @@ function GameLoans(props) {
 
   useEffect(() => {
     setPage(0);
-    loadLoans();
-  }, [initial, final]);
+    loadFriends();
+  }, [search]);
 
   useEffect(() => {
-    loadLoans();
+    loadFriends();
   }, [page]);
 
-  const loadLoans = () => {
+  const loadFriends = () => {
     setLoading(true);
-    GetLoans(page + 1, initial, final)
+    GetFriends(page + 1, search)
       .then((response) => {
         setRows(response.data.data);
         setItensCount(response.data.totalItensCount);
@@ -124,12 +105,12 @@ function GameLoans(props) {
       });
   };
 
-  const deleteLoan = () => {
+  const deleteFriend = () => {
     setLoading(true);
-    DeleteLoan(selectedLoan)
+    DeleteFriend(selectedFriend)
       .then(() => {
         setPage(0);
-        loadLoans();
+        loadFriends();
       })
       .catch((e) => {
         handleErrorResponse(e);
@@ -143,7 +124,7 @@ function GameLoans(props) {
 
   const handleCloseForm = () => {
     setShowForm(false);
-    loadLoans();
+    loadFriends();
   };
 
   return (
@@ -164,26 +145,11 @@ function GameLoans(props) {
         <Grid item>
           <TextField
             id="date"
-            label="Data Inicial"
-            type="date"
-            value={initial}
+            label="Buscar Amigo"
+            type="text"
+            value={search}
             onChange={(e) => {
-              setInitial(e.target.value);
-            }}
-            className={classes.textField}
-            InputLabelProps={{
-              shrink: true,
-            }}
-          />
-        </Grid>
-        <Grid item>
-          <TextField
-            id="date"
-            label="Data Final"
-            type="date"
-            value={final}
-            onChange={(e) => {
-              setFinal(e.target.value);
+              setSearch(e.target.value);
             }}
             InputLabelProps={{
               shrink: true,
@@ -195,7 +161,7 @@ function GameLoans(props) {
             variant="contained"
             color="primary"
             onClick={() => {
-              setSelectedLoan(null);
+              setSelectedFriend(null);
               setShowForm(true);
             }}
           >
@@ -216,18 +182,18 @@ function GameLoans(props) {
       </Grid>
       <ConfirmationModal
         open={showConfirmation}
-        handleOk={() => deleteLoan()}
+        handleOk={() => deleteFriend()}
         handleClose={() => setShowConfirmation(false)}
       />
       {showForm && (
-        <GameLoanForm
+        <FriendForm
           open={showForm}
           handleClose={handleCloseForm}
-          loan={selectedLoan}
+          friend={selectedFriend}
         />
       )}
     </Grid>
   );
 }
 
-export default withBasePage(withStyles(styles)(GameLoans));
+export default withBasePage(withStyles(styles)(Friends));

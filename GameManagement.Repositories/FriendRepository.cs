@@ -17,6 +17,11 @@ namespace GameManagement.Repositories
             return FindById(SELECT, "id", id);
         }
 
+        public Friend FindFriendByUserId(string id)
+        {
+            return FindById(SELECT, "ApplicationUserId", id);
+        }
+
         public PagedResult<Friend> FindFriendsByName(int page, int pageSize, string name)
         {
             return FindLike(SELECT, "name", name, page, pageSize);

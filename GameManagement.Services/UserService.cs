@@ -96,6 +96,7 @@ namespace GameManagement.Services
             {
                 var userId = ContextAcessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value;
                 var user = UserManager.FindByIdAsync(userId).Result;
+                var roles = UserManager.GetRolesAsync(user).Result;
 
                 if (user != null)
                 {
@@ -103,7 +104,8 @@ namespace GameManagement.Services
                     {
                         UserId = user.Id,
                         Name = user.UserName,
-                        Token = ""
+                        Token = "",
+                        Roles = roles
                     };
                 }
             }
@@ -113,6 +115,20 @@ namespace GameManagement.Services
 
         public void CreateUserFromFriend(Friend friend)
         {
+            var sameNameUser = UserManager.FindByNameAsync(friend.Name).Result;
+            if (sameNameUser != null)
+            {
+                throw new GameManagerException(new List<ValidationError>()
+                {
+                    new ValidationError()
+                    {
+                        DataField = "Name",
+                        ErrorMsg = "Já existe um amigo com o nome informado"
+                    }
+
+                });
+            }
+
             var user = new IdentityUser
             {
                 UserName = friend.Name,
@@ -123,19 +139,12 @@ namespace GameManagement.Services
                 EmailConfirmed = true
             };
 
-            var result = UserManager.CreateAsync(user, friend.Name).Result;
-            if (!result.Succeeded)
-            {
-                throw new GameManagerException(new List<ValidationError>()
-                {
-                    new ValidationError()
-                    { 
-                        DataField = "Name",
-                        ErrorMsg = "Já existe um amigo com o nome informado"
-                    }
+            var password = new PasswordHasher<IdentityUser>();
+            var hashed = password.HashPassword(user, friend.Name);
+            user.PasswordHash = hashed;
 
-                });
-            }
+            ApplicationDbContext.Users.Add(user);
+            ApplicationDbContext.SaveChanges();
 
             UserManager.AddToRoleAsync(user, "friend");
             friend.ApplicationUserId = user.Id;
@@ -157,12 +166,15 @@ namespace GameManagement.Services
             }
 
             var token = GenerateToken(userToSignIn);
+            var roles = UserManager.GetRolesAsync(userToSignIn).Result;
+
             return new UserInfo()
             {
                 UserId = userToSignIn.Id,
                 Name = userToSignIn.UserName,
                 Token = token,
-                TokenExp = DateService.GetCurrentDate().AddDays(1)
+                TokenExp = DateService.GetCurrentDate().AddDays(1),
+                Roles = roles
             };
         }
     }

@@ -29,6 +29,13 @@ namespace GameManagement.Repositories
             return connection.Query<T>(query + whereClause, new { id }).FirstOrDefault();
         }
 
+        protected T FindById(string query, string idColumn, string id)
+        {
+            var whereClause = String.Format(ID_FILTER, idColumn);
+            var connection = ApplicationDbContext.Database.GetDbConnection();
+            return connection.Query<T>(query + whereClause, new { id }).FirstOrDefault();
+        }
+
         protected PagedResult<T> FindLike(string query, string likeColumn, string param, int page, int pageSize)
         {
             var limit = pageSize;

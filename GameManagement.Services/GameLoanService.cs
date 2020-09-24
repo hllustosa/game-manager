@@ -144,6 +144,11 @@ namespace GameManagement.Services
             return GameLoanRepository.FindGameLoansByDate(page, pageSize, initialDate, finalDate);
         }
 
+        public PagedResult<GameLoan> FindUserGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate, long friendId)
+        {
+            return GameLoanRepository.FindUserGameLoansByDate(page, pageSize, initialDate, finalDate, friendId);
+        }
+
         public GameLoan Save(GameLoan gameLoan)
         {
             try

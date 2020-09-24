@@ -8,21 +8,14 @@ import Grid from "@material-ui/core/Grid";
 import TextField from "@material-ui/core/TextField";
 import TableRow from "@material-ui/core/TableRow";
 import TableHead from "@material-ui/core/TableHead";
-import Button from "@material-ui/core/Button";
 import Backdrop from "@material-ui/core/Backdrop";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import { Typography } from "@material-ui/core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { withStyles } from "@material-ui/core/styles";
-import { GetGames, Delete, DeleteGame } from "../data/Game";
+import { GetGames } from "../data/UserFriend";
 import { handleErrorResponse, Code2Media } from "../data/Utils";
 import Title from "../components/Title";
-import DetailsIcon from "../components/DetailsIcon";
-import DeleteIcon from "../components/DeleteIcon";
 import ConfirmationModal from "../components/ConfirmationModal";
-
-import GameForm from "../components/GameForm";
 
 const styles = (theme) => ({
   root: {
@@ -40,10 +33,9 @@ function Games(props) {
   const [page, setPage] = useState(0);
   const [itensCount, setItensCount] = useState(0);
   const [search, setSearch] = useState("");
-  const [selectedGame, setSelectedGame] = useState({});
   const [loading, setLoading] = useState(true);
   const [showConfirmation, setShowConfirmation] = useState(false);
-  const [showForm, setShowForm] = useState(false);
+
 
   const RenderHeader = () => {
     return (
@@ -53,8 +45,6 @@ function Games(props) {
           <TableHeaderCell>Mídia</TableHeaderCell>
           <TableHeaderCell>Plataforma</TableHeaderCell>
           <TableHeaderCell>Status</TableHeaderCell>
-          <TableHeaderCell></TableHeaderCell>
-          <TableHeaderCell></TableHeaderCell>
         </TableRow>
       </TableHead>
     );
@@ -74,22 +64,6 @@ function Games(props) {
           ) : (
             <Typography style={{ color: "green" }}> Disponível </Typography>
           )}
-        </StyledTableCell>
-        <StyledTableCell style={{ width: 30 }}>
-          <DetailsIcon
-            onClick={() => {
-              setSelectedGame(row);
-              setShowForm(true);
-            }}
-          />
-        </StyledTableCell>
-        <StyledTableCell style={{ width: 30 }}>
-          <DeleteIcon
-            onClick={() => {
-              setSelectedGame(row);
-              setShowConfirmation(true);
-            }}
-          />
         </StyledTableCell>
       </TableRow>
     );
@@ -118,26 +92,8 @@ function Games(props) {
       });
   };
 
-  const deleteGame = () => {
-    setLoading(true);
-    DeleteGame(selectedGame)
-      .then(() => {
-        setPage(0);
-        loadGames();
-      })
-      .catch((e) => {
-        handleErrorResponse(e);
-        setLoading(false);
-      });
-  };
-
   const handleChangePage = (newPage) => {
     setPage(newPage);
-  };
-
-  const handleCloseForm = () => {
-    setShowForm(false);
-    loadGames();
   };
 
   return (
@@ -169,19 +125,6 @@ function Games(props) {
             }}
           />
         </Grid>
-        <Grid item>
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={() => {
-              setSelectedGame(null);
-              setShowForm(true);
-            }}
-          >
-            <FontAwesomeIcon style={{ marginRight: "5px" }} icon={faPlus} />{" "}
-            {"Novo"}
-          </Button>
-        </Grid>
       </Grid>
       <Grid item style={{ paddingTop: "15px" }}>
         <CompleteTable
@@ -193,18 +136,6 @@ function Games(props) {
           handleChangePage={handleChangePage}
         />
       </Grid>
-      <ConfirmationModal
-        open={showConfirmation}
-        handleOk={() => deleteGame()}
-        handleClose={() => setShowConfirmation(false)}
-      />
-      {showForm && (
-        <GameForm
-          open={showForm}
-          handleClose={handleCloseForm}
-          game={selectedGame}
-        />
-      )}
     </Grid>
   );
 }
