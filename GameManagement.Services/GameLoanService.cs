@@ -128,7 +128,6 @@ namespace GameManagement.Services
             else
             {
                 var game = GameRepository.FindGamesById(gameLoan.GameId);
-                ValidateGameLoan(gameLoan, game);
                 gameLoan.LoanDate = currentGameLoan.LoanDate;
                 GameLoanRepository.Update(gameLoan);
             }

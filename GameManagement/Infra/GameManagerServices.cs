@@ -22,13 +22,15 @@ namespace GameManagement.Infra
         public const string FRIEND_ROLE = "friend";
         public const string FRIEND_ROLE_POLICY = "FRIEND_ROLE_POLICY";
 
-        public static void AddGameManagerServices(this IServiceCollection services, IConfiguration configuration)
+        public static void AddGameManagerServices(this IServiceCollection services, IConfiguration configuration, bool testing = false)
         {
             #region Add Database Context
-            services.AddEntityFrameworkSqlite().AddDbContext<ApplicationDbContext>(
-                options => options.UseSqlite(configuration.GetConnectionString("DefaultConnection"), 
-                b => b.MigrationsAssembly("GameManagement")));
-
+            if (!testing)
+            {
+                services.AddEntityFrameworkSqlite().AddDbContext<ApplicationDbContext>(
+                    options => options.UseSqlite(configuration.GetConnectionString("DefaultConnection"),
+                    b => b.MigrationsAssembly("GameManagement")));
+            }
             #endregion
 
             #region Add Identity

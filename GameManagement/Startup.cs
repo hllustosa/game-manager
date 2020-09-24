@@ -45,7 +45,6 @@ namespace GameManagement
             app.UseSpaStaticFiles();
             app.UseRouting();
             app.UseAuthentication();
-            //app.UseIdentityServer();
             app.UseAuthorization();
             app.UseMiddleware(typeof(ErrorHandlingMiddleware));
 

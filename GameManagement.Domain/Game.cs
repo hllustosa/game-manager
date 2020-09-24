@@ -68,6 +68,14 @@ namespace GameManagement.Domain
                 });
             }
 
+            if(MediaType < 0 || MediaType > 3)
+            {
+                errors.Add(new ValidationError()
+                {
+                    DataField = "MediaType",
+                    ErrorMsg = "MediaType é inválido"
+                });
+            }
 
             if (errors.Count > 0 )
             {
@@ -75,5 +83,19 @@ namespace GameManagement.Domain
             }
         }
 
+        public override bool Equals(object obj)
+        {
+            return obj is Game game &&
+                   Id == game.Id &&
+                   Name == game.Name &&
+                   PlataformName == game.PlataformName &&
+                   MediaType == game.MediaType &&
+                   IsLent == game.IsLent;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Id, Name, PlataformName, MediaType, IsLent);
+        }
     }
 }

@@ -14,6 +14,9 @@ namespace GameManagement.Repositories
                                                     INNER JOIN Friends ON Friends.Id = GameLoans.FriendId
                                                     INNER JOIN Games ON Games.Id = GameLoans.GameId ";
 
+        private static readonly string SELECT_SIMPLE = @"SELECT GameLoans.*, count(*) OVER() AS count 
+                                                    FROM GameLoans  ";
+
         private static readonly string BETWEEN_FILTER = @"WHERE {0} BETWEEN :initialDate AND :finalDate ";
 
         private static readonly string FRIEND_FILTER = @"WHERE {0} BETWEEN :initialDate AND :finalDate AND GameLoans.FriendId = :friendId ";
@@ -29,7 +32,7 @@ namespace GameManagement.Repositories
 
         public GameLoan FindGameLoansById(long id)
         {
-            return FindById(SELECT, "GameLoans.Id", id);
+            return FindById(SELECT_SIMPLE, "Id", id);
         }
 
         private PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate, long? friendId)

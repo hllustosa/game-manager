@@ -18,6 +18,18 @@ namespace GameManagement.Domain
         [ForeignKey("IdentityUser")]
         public string ApplicationUserId { get; set; }
 
+        public override bool Equals(object obj)
+        {
+            return obj is Friend friend &&
+                   Id == friend.Id &&
+                   Name == friend.Name;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Id, Name);
+        }
+
         public void Validate()
         {
             var errors = new List<ValidationError>();
@@ -36,6 +48,5 @@ namespace GameManagement.Domain
                 throw new GameManagerException(errors);
             }
         }
-
     }
 }
