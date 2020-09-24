@@ -148,6 +148,11 @@ namespace GameManagement.Services
             return GameLoanRepository.FindUserGameLoansByDate(page, pageSize, initialDate, finalDate, friendId);
         }
 
+        public List<GameLoan> FindGameLoansTimeline(long? friendId, long? gameId)
+        {
+            return GameLoanRepository.FindGameLoansTimeline(friendId, gameId);
+        }
+
         public GameLoan Save(GameLoan gameLoan)
         {
             try

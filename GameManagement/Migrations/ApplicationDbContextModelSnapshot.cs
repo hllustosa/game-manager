@@ -415,7 +415,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 1, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 1, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -423,7 +424,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 1, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 1, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 1, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -431,7 +433,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 1, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 1, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 1, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -439,7 +442,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 1, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -447,7 +451,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 1, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 1, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 1, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -455,7 +460,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 1, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 1, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -463,7 +469,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 1, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 1, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -471,7 +478,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 1, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 1, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -479,7 +487,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -487,7 +496,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -495,7 +505,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -503,7 +514,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -511,7 +523,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -519,7 +532,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -527,7 +541,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -535,7 +550,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -543,7 +559,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -551,7 +568,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1001L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -559,7 +577,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -575,7 +594,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -583,7 +603,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -591,7 +612,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -599,7 +621,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -607,7 +630,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -615,7 +639,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -623,7 +648,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -631,7 +657,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -639,7 +666,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -647,7 +675,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -655,7 +684,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -663,7 +693,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -671,7 +702,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -679,7 +711,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -687,7 +720,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -695,7 +729,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -703,7 +738,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1002L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -711,7 +747,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -719,7 +756,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -735,7 +773,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -743,7 +782,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -751,7 +791,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -759,7 +800,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -767,7 +809,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -775,7 +818,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -783,7 +827,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -791,7 +836,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -799,7 +845,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -807,7 +854,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -815,7 +863,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -823,7 +872,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -831,7 +881,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -839,7 +890,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -847,7 +899,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -855,7 +908,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1003L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -863,7 +917,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -871,7 +926,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -879,7 +935,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -895,7 +952,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -903,7 +961,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -911,7 +970,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -919,7 +979,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -927,7 +988,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 3, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -935,7 +997,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -943,7 +1006,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -951,7 +1015,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 3, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 3, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -959,7 +1024,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -967,7 +1033,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -975,7 +1042,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -983,7 +1051,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -991,7 +1060,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -999,7 +1069,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1007,7 +1078,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1004L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1015,7 +1087,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1023,7 +1096,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1031,7 +1105,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1039,7 +1114,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1055,7 +1131,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1063,7 +1140,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1071,7 +1149,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1079,7 +1158,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1087,7 +1167,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1095,7 +1176,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1103,7 +1185,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1111,7 +1194,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1119,7 +1203,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1127,7 +1212,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1135,7 +1221,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1143,7 +1230,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1151,7 +1239,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1159,7 +1248,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1005L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1167,7 +1257,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 4, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1175,7 +1266,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1183,7 +1275,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1191,7 +1284,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 4, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 4, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1199,7 +1293,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1215,7 +1310,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1223,7 +1319,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1231,7 +1328,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1239,7 +1337,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1247,7 +1346,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1255,7 +1355,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1263,7 +1364,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1271,7 +1373,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1279,7 +1382,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1287,7 +1391,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1295,7 +1400,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1303,7 +1409,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1311,7 +1418,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1006L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1319,7 +1427,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1327,7 +1436,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1335,7 +1445,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1343,7 +1454,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1351,7 +1463,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1359,7 +1472,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1375,7 +1489,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1383,7 +1498,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1391,7 +1507,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1399,7 +1516,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1407,7 +1525,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1415,7 +1534,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 5, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1423,7 +1543,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1431,7 +1552,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1439,7 +1561,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 5, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 5, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1447,7 +1570,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1455,7 +1579,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1463,7 +1588,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1007L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1471,7 +1597,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1479,7 +1606,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1487,7 +1615,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1495,7 +1624,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1503,7 +1633,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1511,7 +1642,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1519,7 +1651,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1535,7 +1668,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1543,7 +1677,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1551,7 +1686,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1559,7 +1695,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1567,7 +1704,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1575,7 +1713,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1583,7 +1722,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1591,7 +1731,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1599,7 +1740,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1607,7 +1749,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1615,7 +1758,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1008L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1623,7 +1767,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1631,7 +1776,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1639,7 +1785,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1647,7 +1794,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1655,7 +1803,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1663,7 +1812,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1671,7 +1821,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1679,7 +1830,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1695,7 +1847,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1703,7 +1856,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1711,7 +1865,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1719,7 +1874,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1727,7 +1883,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1735,7 +1892,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1743,7 +1901,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1751,7 +1910,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1759,7 +1919,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1767,7 +1928,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1009L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1775,7 +1937,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1783,7 +1946,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1791,7 +1955,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1799,7 +1964,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1807,7 +1973,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1815,7 +1982,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1823,7 +1991,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1831,7 +2000,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1839,7 +2009,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1855,7 +2026,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1863,7 +2035,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1871,7 +2044,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1879,7 +2053,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1887,7 +2062,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1895,7 +2071,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1903,7 +2080,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 7, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1911,7 +2089,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1919,7 +2098,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1010L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1927,7 +2107,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 7, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 7, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1935,7 +2116,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1943,7 +2125,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1951,7 +2134,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1959,7 +2143,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1967,7 +2152,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1975,7 +2161,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1983,7 +2170,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1991,7 +2179,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -1999,7 +2188,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2015,7 +2205,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2023,7 +2214,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2031,7 +2223,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2039,7 +2232,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2047,7 +2241,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2055,7 +2250,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2063,7 +2259,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2071,7 +2268,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1011L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2079,7 +2277,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2087,7 +2286,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2095,7 +2295,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2103,7 +2304,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2111,7 +2313,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2119,7 +2322,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2127,7 +2331,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2135,7 +2340,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2143,7 +2349,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2151,7 +2358,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 8, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2159,7 +2367,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2175,7 +2384,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 8, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 8, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2183,7 +2393,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2191,7 +2402,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2199,7 +2411,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2207,7 +2420,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2215,7 +2429,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2223,7 +2438,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1012L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2231,7 +2447,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2239,7 +2456,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2247,7 +2465,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2255,7 +2474,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2263,7 +2483,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2271,7 +2492,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2279,7 +2501,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2287,7 +2510,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2295,7 +2519,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2303,7 +2528,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2311,7 +2537,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2319,7 +2546,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2335,7 +2563,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2343,7 +2572,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2351,7 +2581,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2359,7 +2590,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2367,7 +2599,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2375,7 +2608,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1013L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2383,7 +2617,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2391,7 +2626,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 9, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2399,7 +2635,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2407,7 +2644,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2415,7 +2653,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 9, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 9, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2423,7 +2662,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2431,7 +2671,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2439,7 +2680,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2447,7 +2689,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2455,7 +2698,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2463,7 +2707,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2471,7 +2716,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2479,7 +2725,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2495,7 +2742,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2503,7 +2751,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2511,7 +2760,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2519,7 +2769,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2527,7 +2778,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1014L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2535,7 +2787,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2543,7 +2796,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2551,7 +2805,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2559,7 +2814,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2567,7 +2823,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2575,7 +2832,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2583,7 +2841,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2591,7 +2850,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2599,7 +2859,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2607,7 +2868,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2615,7 +2877,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2623,7 +2886,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2631,7 +2895,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2639,7 +2904,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 10, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2655,7 +2921,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2663,7 +2930,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 10, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 10, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2671,7 +2939,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2679,7 +2948,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1015L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2687,7 +2957,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2695,7 +2966,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2703,7 +2975,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2711,7 +2984,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2719,7 +2993,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2727,7 +3002,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2735,7 +3011,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2743,7 +3020,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2751,7 +3029,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2759,7 +3038,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2767,7 +3047,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2775,7 +3056,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2783,7 +3065,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2791,7 +3074,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2799,7 +3083,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2815,7 +3100,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2823,7 +3109,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2831,7 +3118,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1016L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2839,7 +3127,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2847,7 +3136,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2855,7 +3145,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2863,7 +3154,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2871,7 +3163,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2879,7 +3172,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 11, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2887,7 +3181,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2895,7 +3190,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2903,7 +3199,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 11, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 11, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2911,7 +3208,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2919,7 +3217,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2927,7 +3226,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2935,7 +3235,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2943,7 +3244,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2951,7 +3253,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2959,7 +3262,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2975,7 +3279,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2983,7 +3288,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1017L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2991,7 +3297,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -2999,7 +3306,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3007,7 +3315,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3015,7 +3324,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3023,7 +3333,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3031,7 +3342,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3039,7 +3351,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3047,7 +3360,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3055,7 +3369,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3063,7 +3378,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3071,7 +3387,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3079,7 +3396,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3087,7 +3405,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3095,7 +3414,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3103,7 +3423,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3111,7 +3432,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3119,7 +3441,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2015, 12, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3135,7 +3458,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1018L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3143,7 +3467,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3151,7 +3476,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2015, 12, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2015, 12, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3159,7 +3485,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3167,7 +3494,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3175,7 +3503,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3183,7 +3512,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3191,7 +3521,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3199,7 +3530,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3207,7 +3539,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3215,7 +3548,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3223,7 +3557,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3231,7 +3566,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3239,7 +3575,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3247,7 +3584,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3255,7 +3593,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3263,7 +3602,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3271,7 +3611,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3279,7 +3620,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1019L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3295,7 +3637,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3303,7 +3646,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3311,7 +3655,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3319,7 +3664,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3327,7 +3673,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3335,7 +3682,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3343,7 +3691,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3351,7 +3700,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3359,7 +3709,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3367,7 +3718,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3375,7 +3727,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3383,7 +3736,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3391,7 +3745,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3399,7 +3754,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3407,7 +3763,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3415,7 +3772,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3423,7 +3781,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3431,7 +3790,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3439,7 +3799,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1020L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3447,7 +3808,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3455,7 +3817,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3463,7 +3826,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3471,7 +3835,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3479,7 +3844,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3487,7 +3853,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3495,7 +3862,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3503,7 +3871,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3511,7 +3880,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3519,7 +3889,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3527,7 +3898,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3535,7 +3907,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3543,7 +3916,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3551,7 +3925,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3559,7 +3934,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3567,7 +3943,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3575,7 +3952,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3583,7 +3961,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3591,7 +3970,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1021L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3599,7 +3979,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3607,7 +3988,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 2, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3615,7 +3997,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3623,7 +4006,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3631,7 +4015,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 2, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 2, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3639,7 +4024,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3647,7 +4033,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3655,7 +4042,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3663,7 +4051,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3671,7 +4060,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3679,7 +4069,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3687,7 +4078,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3695,7 +4087,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3703,7 +4096,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3711,7 +4105,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3719,7 +4114,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3727,7 +4123,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3735,7 +4132,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3743,7 +4141,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1022L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3751,7 +4150,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3759,7 +4159,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3767,7 +4168,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3775,7 +4177,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3783,7 +4186,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3791,7 +4195,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3799,7 +4204,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3807,7 +4213,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3815,7 +4222,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3823,7 +4231,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3831,7 +4240,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3839,7 +4249,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3847,7 +4258,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3855,7 +4267,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 3, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3863,7 +4276,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3871,7 +4285,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3879,7 +4294,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 3, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 3, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3887,7 +4303,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3895,7 +4312,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1023L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3903,7 +4321,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3911,7 +4330,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3919,7 +4339,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3927,7 +4348,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3935,7 +4357,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3943,7 +4366,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3951,7 +4375,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3959,7 +4384,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3967,7 +4393,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3975,7 +4402,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3983,7 +4411,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3991,7 +4420,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -3999,7 +4429,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4007,7 +4438,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4015,7 +4447,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4023,7 +4456,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4031,7 +4465,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4039,7 +4474,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4047,7 +4483,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1024L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4055,7 +4492,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4063,7 +4501,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4071,7 +4510,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4079,7 +4519,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4087,7 +4528,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4095,7 +4537,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 4, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4103,7 +4546,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4111,7 +4555,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4119,7 +4564,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 4, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 4, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4127,7 +4573,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4135,7 +4582,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4143,7 +4591,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4151,7 +4600,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4159,7 +4609,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4167,7 +4618,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4175,7 +4627,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4183,7 +4636,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4191,7 +4645,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4199,7 +4654,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1025L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4207,7 +4663,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4215,7 +4672,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4223,7 +4681,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4231,7 +4690,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4239,7 +4699,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4247,7 +4708,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4255,7 +4717,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4263,7 +4726,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4271,7 +4735,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4279,7 +4744,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4287,7 +4753,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4295,7 +4762,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4303,7 +4771,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4311,7 +4780,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4319,7 +4789,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4327,7 +4798,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4335,7 +4807,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4343,7 +4816,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 5, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4351,7 +4825,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1026L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4359,7 +4834,8 @@ namespace GameManagement.Migrations
                             FriendId = 1001L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4367,7 +4843,8 @@ namespace GameManagement.Migrations
                             FriendId = 1002L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 5, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 5, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4375,7 +4852,8 @@ namespace GameManagement.Migrations
                             FriendId = 1003L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4383,7 +4861,8 @@ namespace GameManagement.Migrations
                             FriendId = 1004L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4391,7 +4870,8 @@ namespace GameManagement.Migrations
                             FriendId = 1005L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4399,7 +4879,8 @@ namespace GameManagement.Migrations
                             FriendId = 1006L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4407,7 +4888,8 @@ namespace GameManagement.Migrations
                             FriendId = 1007L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4415,7 +4897,8 @@ namespace GameManagement.Migrations
                             FriendId = 1008L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4423,7 +4906,8 @@ namespace GameManagement.Migrations
                             FriendId = 1009L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4431,7 +4915,8 @@ namespace GameManagement.Migrations
                             FriendId = 1010L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4439,7 +4924,8 @@ namespace GameManagement.Migrations
                             FriendId = 1011L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4447,7 +4933,8 @@ namespace GameManagement.Migrations
                             FriendId = 1012L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4455,7 +4942,8 @@ namespace GameManagement.Migrations
                             FriendId = 1013L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4463,7 +4951,8 @@ namespace GameManagement.Migrations
                             FriendId = 1014L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4471,7 +4960,8 @@ namespace GameManagement.Migrations
                             FriendId = 1015L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4479,7 +4969,8 @@ namespace GameManagement.Migrations
                             FriendId = 1016L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4487,7 +4978,8 @@ namespace GameManagement.Migrations
                             FriendId = 1017L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4495,7 +4987,8 @@ namespace GameManagement.Migrations
                             FriendId = 1018L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
@@ -4503,7 +4996,8 @@ namespace GameManagement.Migrations
                             FriendId = 1019L,
                             GameId = 1027L,
                             IsActive = false,
-                            LoanDate = new DateTime(2016, 6, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            LoanDate = new DateTime(2016, 6, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReturnDate = new DateTime(2016, 6, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
 
@@ -4618,14 +5112,14 @@ namespace GameManagement.Migrations
                         new
                         {
                             Id = "1",
-                            ConcurrencyStamp = "14202e02-10d8-4631-9cef-07cd7ad90869",
+                            ConcurrencyStamp = "4eb219bc-b9b7-4f0a-8c48-234042437d20",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "2",
-                            ConcurrencyStamp = "80dd476f-77fc-4e59-99e1-b66201e8b819",
+                            ConcurrencyStamp = "80423474-d6e4-47d8-a1e8-b668c252d3e3",
                             Name = "friend",
                             NormalizedName = "FRIEND"
                         });
@@ -4720,17 +5214,17 @@ namespace GameManagement.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "dee7f4fa-6ba6-45c1-89fd-79b4a91df932",
+                            Id = "14849c62-2be1-46b3-b398-b58eb5bb635d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ad8b1119-7392-49ad-a719-72b6dac1a4bd",
+                            ConcurrencyStamp = "cc17fea6-2b4f-4372-bc61-f7357c600dad",
                             Email = "admin@invillia.com.br",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@INVILLIA.COM.BR",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFqihnYdH+yU5TZbF8m9zhw0wSoLB/aBIjaj7t//vWaEo1sUL7AyNx+aPfGoAf1/9A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEM8dI2I9SZkOeAo8V0UZWy+L87CRPAd/LgrmdlVfYQj2GrAna/FRAj0+zAE1MeaTlQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4f84cae1-6eaa-42f4-9aea-b32e7eaed0b9",
+                            SecurityStamp = "784860e6-eda7-4a74-a409-16dfc00c2306",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
@@ -4800,7 +5294,7 @@ namespace GameManagement.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "dee7f4fa-6ba6-45c1-89fd-79b4a91df932",
+                            UserId = "14849c62-2be1-46b3-b398-b58eb5bb635d",
                             RoleId = "1"
                         });
                 });

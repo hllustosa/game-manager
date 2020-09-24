@@ -4,6 +4,7 @@ using GameManagement.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 
 namespace GameManagement.Controllers
 {
@@ -29,6 +30,12 @@ namespace GameManagement.Controllers
         public PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate)
         {
             return GameLoanService.FindGameLoansByDate(page, pageSize, initialDate, finalDate);
+        }
+
+        [HttpGet("[action]")]
+        public List<GameLoan> FindGameLoansTimeline(long? friendId, long? gameId)
+        {
+            return GameLoanService.FindGameLoansTimeline(friendId, gameId);
         }
 
         [HttpPost("[action]")]

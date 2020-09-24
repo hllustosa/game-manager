@@ -39,6 +39,29 @@ export function Code2Media(code) {
   }
 }
 
+export function CreateEventStream(loans, isFriend) {
+  const stream = [];
+  for (const loan of loans) {
+    if (loan.loanDate) {
+      const d = new Date(loan.loanDate);
+      const msg = isFriend
+        ? `Pegou emprestado ${loan.game.name}`
+        : `Foi pego por ${loan.friend.name}`;
+      stream.push({ date: d, event: msg });
+    }
+
+    if (loan.returnDate) {
+      const d = new Date(loan.returnDate);
+      const msg = isFriend
+        ? `Retornou ${loan.game.name}`
+        : `Foi retornado por ${loan.friend.name}`;
+      stream.push({ date: d, event: msg });
+    }
+  }
+
+  return stream.sort((a, b) => b.date - a.date);
+}
+
 export function DoPost(addr, obj) {
   const headers = getAuthHeader();
   return Axios.post(addr, obj, { headers });

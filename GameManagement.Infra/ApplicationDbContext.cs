@@ -134,13 +134,22 @@ namespace GameManagement.Infra
                 for(int j = 0; j < FriendsExamples.Length; j++)
                 {
                     var index = i * FriendsExamples.Length + j;
+                    var active = FriendsExamples[j].Id == GamesExamples[i].Id;
+                    DateTime? returnDate = null;
+
+                    if (!active)
+                    {
+                        returnDate = DateTime.ParseExact("25/01/2015", "dd/MM/yyyy", CultureInfo.InvariantCulture).AddDays(index);
+                    }
+
                     var loan = new GameLoan()
                     {
                         Id = 1000 + index,
                         FriendId = FriendsExamples[j].Id,
                         GameId = GamesExamples[i].Id,
-                        IsActive = FriendsExamples[j].Id == GamesExamples[i].Id,
-                        LoanDate = DateTime.ParseExact("22/01/2015", "dd/MM/yyyy", CultureInfo.InvariantCulture).AddDays(index)
+                        IsActive = active,
+                        LoanDate = DateTime.ParseExact("22/01/2015", "dd/MM/yyyy", CultureInfo.InvariantCulture).AddDays(index),
+                        ReturnDate = returnDate
                     };
                     loans.Add(loan);
                 }

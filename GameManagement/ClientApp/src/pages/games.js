@@ -23,6 +23,7 @@ import DeleteIcon from "../components/DeleteIcon";
 import ConfirmationModal from "../components/ConfirmationModal";
 
 import GameForm from "../components/GameForm";
+import GameTimeLine from "../components/GamesTimeLine";
 
 const styles = (theme) => ({
   root: {
@@ -31,6 +32,10 @@ const styles = (theme) => ({
   backdrop: {
     zIndex: 1001,
     color: "#fff",
+  },
+  link: {
+    textDecoration: "none",
+    fontFamily: "sans-serif",
   },
 });
 
@@ -44,6 +49,7 @@ function Games(props) {
   const [loading, setLoading] = useState(true);
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [showForm, setShowForm] = useState(false);
+  const [showTimeLine, setShowTimeLine] = useState(false);
 
   const RenderHeader = () => {
     return (
@@ -64,7 +70,17 @@ function Games(props) {
     return (
       <TableRow hover key={`row-loans-${index}`}>
         <StyledTableCell component="th" scope="row">
-          {row.name}
+          <a
+            className={classes.link}
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              setSelectedGame(row);
+              setShowTimeLine(true);
+            }}
+          >
+            {row.name}
+          </a>
         </StyledTableCell>
         <StyledTableCell>{Code2Media(row.mediaType)}</StyledTableCell>
         <StyledTableCell>{row.plataformName}</StyledTableCell>
@@ -140,6 +156,10 @@ function Games(props) {
     loadGames();
   };
 
+  const handleCloseTL = () => {
+    setShowTimeLine(false);
+  };
+
   return (
     <Grid container className={classes.root} direction="column">
       <Backdrop className={classes.backdrop} open={loading}>
@@ -202,6 +222,13 @@ function Games(props) {
         <GameForm
           open={showForm}
           handleClose={handleCloseForm}
+          game={selectedGame}
+        />
+      )}
+      {showTimeLine && (
+        <GameTimeLine
+          open={showTimeLine}
+          handleClose={handleCloseTL}
           game={selectedGame}
         />
       )}

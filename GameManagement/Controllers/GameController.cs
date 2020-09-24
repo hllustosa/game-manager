@@ -24,6 +24,7 @@ namespace GameManagement.Controllers
             return GameService.FindGamesByName(page, pageSize, name);
         }
 
+
         [HttpGet("[action]")]
         public Game FindGameById(long id)
         {

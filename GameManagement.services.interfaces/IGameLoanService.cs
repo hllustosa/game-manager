@@ -1,5 +1,6 @@
 ﻿using GameManagement.Domain;
 using System;
+using System.Collections.Generic;
 
 namespace GameManagement.Services.Interfaces
 {
@@ -8,6 +9,8 @@ namespace GameManagement.Services.Interfaces
         PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate);
 
         PagedResult<GameLoan> FindUserGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate, long friendId);
+
+        List<GameLoan> FindGameLoansTimeline(long? friendId, long? gameId);
 
         GameLoan FindGameLoanById(long id);
 

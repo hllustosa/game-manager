@@ -22,6 +22,7 @@ import DeleteIcon from "../components/DeleteIcon";
 import ConfirmationModal from "../components/ConfirmationModal";
 
 import FriendForm from "../components/FriendForm";
+import FriendTimeLine from "../components/FriendTimeLine";
 
 const styles = () => ({
   root: {
@@ -31,6 +32,10 @@ const styles = () => ({
     zIndex: 1001,
     color: "#fff",
   },
+  link: {
+    textDecoration: "none",
+    fontFamily: "sans-serif"
+  }
 });
 
 function Friends(props) {
@@ -43,6 +48,7 @@ function Friends(props) {
   const [loading, setLoading] = useState(true);
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [showForm, setShowForm] = useState(false);
+  const [showTimeLine, setShowTimeLine] = useState(false);
 
   const RenderHeader = () => {
     return (
@@ -60,7 +66,11 @@ function Friends(props) {
     return (
       <TableRow hover key={`row-loans-${index}`}>
         <StyledTableCell component="th" scope="row">
-          {row.name}
+          <a className={classes.link} href="#" onClick={e => {
+             e.preventDefault();
+            setSelectedFriend(row);
+            setShowTimeLine(true);
+          }}>{row.name}</a>
         </StyledTableCell>
         <StyledTableCell style={{ width: 30 }}>
           <DetailsIcon
@@ -127,6 +137,10 @@ function Friends(props) {
     loadFriends();
   };
 
+  const handleCloseTL = () => {
+    setShowTimeLine(false);
+  }
+
   return (
     <Grid container className={classes.root} direction="column">
       <Backdrop className={classes.backdrop} open={loading}>
@@ -189,6 +203,13 @@ function Friends(props) {
         <FriendForm
           open={showForm}
           handleClose={handleCloseForm}
+          friend={selectedFriend}
+        />
+      )}
+       {showTimeLine && (
+        <FriendTimeLine
+          open={showTimeLine}
+          handleClose={handleCloseTL}
           friend={selectedFriend}
         />
       )}
