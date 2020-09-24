@@ -30,8 +30,8 @@ namespace GameManagement.Services
         public Friend Save(Friend friend)
         {
             friend.Validate();
-            FriendRepository.Save(friend);
             UserService.CreateUserFromFriend(friend);
+            FriendRepository.Save(friend);
             return friend;
         }
 

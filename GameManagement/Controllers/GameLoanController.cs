@@ -1,6 +1,5 @@
 ﻿using GameManagement.Domain;
 using GameManagement.Infra;
-using GameManagement.services.interfaces;
 using GameManagement.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -21,9 +20,9 @@ namespace GameManagement.Controllers
         }
 
         [HttpGet("[action]")]
-        public GameLoan FindGameLoansById(long id)
+        public GameLoan FindGameLoanById(long id)
         {
-            return GameLoanService.FindGameLoansById(id);
+            return GameLoanService.FindGameLoanById(id);
         }
 
         [HttpGet("[action]")]

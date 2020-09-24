@@ -10,9 +10,9 @@ namespace GameManagement.Domain
 
         public int Page { get; set; }
 
-        public int TotalItensCount { get; set; }
+        public long TotalItensCount { get; set; }
 
-        public PagedResult(List<T> data, int page, int totalItensCount)
+        public PagedResult(List<T> data, int page, long totalItensCount)
         {
             Data = data;
             Page = page;

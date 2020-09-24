@@ -36,8 +36,17 @@ namespace GameManagement
             
             if (ex is GameManagerException)
             {
-                code = ((GameManagerException)ex).Code;
-                errors = ((GameManagerException)ex).Errors;
+                GameManagerException gmException = ((GameManagerException)ex);
+                code = gmException.Code;
+
+                if (String.IsNullOrEmpty(gmException.ErrorMessage))
+                {
+                    errors = gmException.Errors;
+                }
+                else
+                {
+                    errors.Add(new ValidationError { ErrorMsg = gmException.ErrorMessage });
+                }
             }
             else
             {

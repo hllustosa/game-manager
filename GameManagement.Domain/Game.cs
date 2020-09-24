@@ -24,7 +24,7 @@ namespace GameManagement.Domain
 
         public string PlataformName { get; set; }
 
-        public MediaType MediaType { get; set; }
+        public long MediaType { get; set; }
 
         public bool IsLent { get; set; }
 

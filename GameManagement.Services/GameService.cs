@@ -16,7 +16,7 @@ namespace GameManagement.Services
             GameRepository = gameRepository;
         }
 
-        public Game FindGamesById(long id)
+        public Game FindGameById(long id)
         {
             return GameRepository.FindGamesById(id);
         }

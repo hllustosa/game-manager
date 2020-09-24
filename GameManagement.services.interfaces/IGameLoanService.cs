@@ -7,7 +7,7 @@ namespace GameManagement.Services.Interfaces
     {
         PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate);
 
-        GameLoan FindGameLoansById(long id);
+        GameLoan FindGameLoanById(long id);
 
         GameLoan Save(GameLoan gameLoan);
 

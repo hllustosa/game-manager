@@ -6,7 +6,7 @@ namespace GameManagement.services.interfaces
     {
         PagedResult<Game> FindGamesByName(int page, int pageSize, string name);
 
-        Game FindGamesById(long id);
+        Game FindGameById(long id);
 
         Game Save(Game game);
 

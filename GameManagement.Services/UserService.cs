@@ -73,6 +73,13 @@ namespace GameManagement.Services
                 new Claim(ClaimTypes.NameIdentifier, user.Id),
             };
 
+            var roles = UserManager.GetRolesAsync(user).Result;
+
+            foreach(var role in roles)
+            {
+                permClaims.Add(new Claim(role, role));
+            }
+
             var token = new JwtSecurityToken(issuer,
                             issuer,
                             permClaims,
@@ -109,14 +116,29 @@ namespace GameManagement.Services
             var user = new IdentityUser
             {
                 UserName = friend.Name,
-                NormalizedUserName = friend.Name,
+                NormalizedUserName = friend.Name.ToUpper(),
                 Email = friend.Name+"@invillia.com.br",
-                NormalizedEmail = friend.Name + "@invillia.com.br",
+                NormalizedEmail = (friend.Name + "@invillia.com.br").ToUpper(),
                 SecurityStamp = Guid.NewGuid().ToString(),
                 EmailConfirmed = true
             };
 
-            _ = UserManager.CreateAsync(user, friend.Name).Result;
+            var result = UserManager.CreateAsync(user, friend.Name).Result;
+            if (!result.Succeeded)
+            {
+                throw new GameManagerException(new List<ValidationError>()
+                {
+                    new ValidationError()
+                    { 
+                        DataField = "Name",
+                        ErrorMsg = "Já existe um amigo com o nome informado"
+                    }
+
+                });
+            }
+
+            UserManager.AddToRoleAsync(user, "friend");
+            friend.ApplicationUserId = user.Id;
         }
 
         public UserInfo Login(string userName, string password)
@@ -131,7 +153,7 @@ namespace GameManagement.Services
 
             if (!result.Succeeded)
             {
-                throw new GameManagerException("Problema de autenticação", StatusCodes.Status401Unauthorized);
+                throw new GameManagerException("Usuário ou senha inválidos", StatusCodes.Status401Unauthorized);
             }
 
             var token = GenerateToken(userToSignIn);

@@ -13,8 +13,12 @@ namespace GameManagement.Domain
         [ForeignKey("Game")]
         public long GameId { get; set; }
 
+        public Game Game { get; set; }
+
         [ForeignKey("Friend")]
         public long FriendId { get; set; }
+
+        public Friend Friend { get; set; }
 
         public DateTime LoanDate { get; set; }
 

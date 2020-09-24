@@ -1,0 +1,8 @@
+{
+    "home" : "/",
+    "login" : "/login",
+    "games": "/games",
+    "friends": "/friends",
+    "gameLoans": "/game-loans",
+    "logout": "/logout"
+}

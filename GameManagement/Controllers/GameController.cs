@@ -25,9 +25,9 @@ namespace GameManagement.Controllers
         }
 
         [HttpGet("[action]")]
-        public Game FindGamesById(long id)
+        public Game FindGameById(long id)
         {
-            return GameService.FindGamesById(id);
+            return GameService.FindGameById(id);
         }
 
         [HttpPost("[action]")]
@@ -39,7 +39,7 @@ namespace GameManagement.Controllers
         [HttpPost("[action]")]
         public Game Update([FromBody]Game game)
         {
-            return GameService.Save(game);
+            return GameService.Update(game);
         }
 
         [HttpPost("[action]")]

@@ -6,7 +6,7 @@ namespace GameManagement.Repositories
 {
     public class FriendRepository : BaseRepository<Friend>, IFriendRepository
     {
-        private static readonly string SELECT = @"SELECT Friends.*, count(*) OVER() AS count FROM Games ";
+        private static readonly string SELECT = @"SELECT Friends.*, count(*) OVER() AS count FROM Friends ";
 
         public FriendRepository(ApplicationDbContext dbContext) : base(dbContext)
         {

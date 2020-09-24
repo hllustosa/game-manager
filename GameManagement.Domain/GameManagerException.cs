@@ -15,6 +15,8 @@ namespace GameManagement.Domain
     {
         public int Code { get; set; }
 
+        public string ErrorMessage { get; set; }
+
         public List<ValidationError> Errors { get; set; }
 
         public GameManagerException(string message, int code = (int) HttpStatusCode.InternalServerError)
@@ -22,6 +24,7 @@ namespace GameManagement.Domain
         {
             Code = code;
             Errors = null;
+            ErrorMessage = message;
         }
 
         public GameManagerException(List<ValidationError> errors, int code = (int) HttpStatusCode.BadRequest)

@@ -98,8 +98,9 @@ namespace GameManagement.Services
             {
                 var loanedGame = GameRepository.FindGamesById(currentGameLoan.GameId);
                 loanedGame.IsLent = false;
-                currentGameLoan.IsActive = false;
-                currentGameLoan.ReturnDate = DateService.GetCurrentDate();
+                gameLoan.IsActive = false;
+                gameLoan.LoanDate = currentGameLoan.LoanDate;
+                gameLoan.ReturnDate = DateService.GetCurrentDate();
 
                 GameRepository.Update(loanedGame);
                 GameLoanRepository.Update(gameLoan);
@@ -120,6 +121,7 @@ namespace GameManagement.Services
 
                 var game = GameRepository.FindGamesById(gameLoan.GameId);
                 ValidateGameLoan(gameLoan, game);
+                gameLoan.LoanDate = currentGameLoan.LoanDate;
                 GameRepository.Update(loanedGame);
                 GameLoanRepository.Update(gameLoan);
             }
@@ -127,11 +129,12 @@ namespace GameManagement.Services
             {
                 var game = GameRepository.FindGamesById(gameLoan.GameId);
                 ValidateGameLoan(gameLoan, game);
+                gameLoan.LoanDate = currentGameLoan.LoanDate;
                 GameLoanRepository.Update(gameLoan);
             }
         }
 
-        public GameLoan FindGameLoansById(long id)
+        public GameLoan FindGameLoanById(long id)
         {
             return GameLoanRepository.FindGameLoansById(id);
         }
@@ -201,11 +204,11 @@ namespace GameManagement.Services
             try
             {
                 ApplicationDbContext.Database.BeginTransaction();
-                var currentGameLoan = GetCurrentGameLoan(gameLoan.Id);
-                var loanedGame = GameRepository.FindGamesById(currentGameLoan.GameId);
-                loanedGame.IsLent = false;
-                GameRepository.Update(loanedGame);
-                GameLoanRepository.Delete(currentGameLoan);
+                gameLoan = ApplicationDbContext.GameLoans.Find(gameLoan.Id);
+                var game = ApplicationDbContext.Games.Find(gameLoan.GameId);
+                game.IsLent = false;
+                GameRepository.Update(game);
+                GameLoanRepository.Delete(gameLoan);
                 ApplicationDbContext.Database.CommitTransaction();
             }
             catch (Exception e)

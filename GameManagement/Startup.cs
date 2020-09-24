@@ -43,8 +43,11 @@ namespace GameManagement
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
-
             app.UseRouting();
+            app.UseAuthentication();
+            //app.UseIdentityServer();
+            app.UseAuthorization();
+            app.UseMiddleware(typeof(ErrorHandlingMiddleware));
 
             app.UseEndpoints(endpoints =>
             {

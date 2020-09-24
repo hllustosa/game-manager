@@ -71,8 +71,9 @@ namespace GameManagement.Infra
             #region Add Authorization
             services.AddAuthorization(options =>
             {
-                options.AddPolicy(ADMIN_ROLE_POLICY, policy => policy.RequireRole(ADMIN_ROLE));
-                options.AddPolicy(FRIEND_ROLE_POLICY, policy => policy.RequireRole(FRIEND_ROLE));
+                options.AddPolicy(ADMIN_ROLE_POLICY, policy => policy.RequireClaim(ADMIN_ROLE));
+                options.AddPolicy(FRIEND_ROLE_POLICY, policy => policy.RequireClaim(FRIEND_ROLE));
+
             });
             #endregion
 
