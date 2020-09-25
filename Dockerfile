@@ -15,6 +15,8 @@ COPY ["GameManagement.services.interfaces/GameManagement.Services.Interfaces.csp
 RUN dotnet restore "GameManagement/GameManagement.csproj"
 COPY . .
 WORKDIR "/src/GameManagement"
+RUN apt update
+RUN apt install npm
 RUN dotnet build "GameManagement.csproj" -c Release -o /app/build
 
 FROM build AS publish
