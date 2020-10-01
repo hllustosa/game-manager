@@ -10,7 +10,7 @@ namespace GameManagement.services.interfaces
 
         Game Save(Game game);
 
-        Game Update(Game game);
+        Game Update(long id, Game game);
 
         void Delete(Game game);
     }

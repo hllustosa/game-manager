@@ -10,7 +10,7 @@ namespace GameManagement.Services.Interfaces
 
         Friend Save(Friend friend);
 
-        Friend Update(Friend friend);
+        Friend Update(long id, Friend friend);
 
         void Delete(Friend friend);
     }

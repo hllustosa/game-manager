@@ -16,7 +16,7 @@ namespace GameManagement.Services.Interfaces
 
         GameLoan Save(GameLoan gameLoan);
 
-        GameLoan Update(GameLoan gameLoan);
+        GameLoan Update(long id, GameLoan gameLoan);
 
         void Delete(GameLoan gameLoan);
     }

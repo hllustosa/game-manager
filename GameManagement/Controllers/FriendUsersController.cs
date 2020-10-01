@@ -10,9 +10,9 @@ using System;
 namespace GameManagement.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/api/[controller]")]
     [Authorize(Policy = GameManagerServices.FRIEND_ROLE_POLICY)]
-    public class FriendUserController : Controller
+    public class FriendUsersController : Controller
     {
         IGameService GameService { get; set; }
 
@@ -22,7 +22,7 @@ namespace GameManagement.Controllers
 
         IUserService UserService { get; set; }
 
-        public FriendUserController(IGameService gameService,
+        public FriendUsersController(IGameService gameService,
             IGameLoanService gameLoanService, 
             IFriendRepository friendRepository, 
             IUserService userService)
@@ -33,14 +33,14 @@ namespace GameManagement.Controllers
             UserService = userService;
         }
 
-        [HttpGet("[action]")]
+        [HttpGet("games/{pageSize}/{page}/{name?}")]
         public PagedResult<Game> FindGamesByName(int page, int pageSize, string name)
         {
             return GameService.FindGamesByName(page, pageSize, name);
         }
 
-        [HttpGet("[action]")]
-        public PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate)
+        [HttpGet("loans/{pageSize}/{page}/{initialDate?}/{finalDate?}")]
+        public PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate = null, DateTime? finalDate = null)
         {
             var currentUser = UserService.GetCurrentUser();
             var friend = FriendRepository.FindFriendByUserId(currentUser.UserId);

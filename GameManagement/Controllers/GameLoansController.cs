@@ -9,51 +9,57 @@ using System.Collections.Generic;
 namespace GameManagement.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/api/[controller]")]
     [Authorize(Policy = GameManagerServices.ADMIN_ROLE_POLICY)]
-    public class GameLoanController : Controller
+    public class GameLoansController : Controller
     {
         IGameLoanService GameLoanService { get; set; }
 
-        public GameLoanController(IGameLoanService gameLoanService)
+        public GameLoansController(IGameLoanService gameLoanService)
         {
             GameLoanService = gameLoanService;
         }
 
-        [HttpGet("[action]")]
+        [HttpGet("{id}")]
         public GameLoan FindGameLoanById(long id)
         {
             return GameLoanService.FindGameLoanById(id);
         }
 
-        [HttpGet("[action]")]
+        [HttpGet("{pageSize}/{page}/{initialDate?}/{finalDate?}")]
         public PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate)
         {
             return GameLoanService.FindGameLoansByDate(page, pageSize, initialDate, finalDate);
         }
 
-        [HttpGet("[action]")]
-        public List<GameLoan> FindGameLoansTimeline(long? friendId, long? gameId)
+        [HttpGet("friends/{friendId}")]
+        public List<GameLoan> FindFriendsGameLoansTimeline(long friendId)
         {
-            return GameLoanService.FindGameLoansTimeline(friendId, gameId);
+            return GameLoanService.FindGameLoansTimeline(friendId, null);
         }
 
-        [HttpPost("[action]")]
+        [HttpGet("games/{gameId}")]
+        public List<GameLoan> FindGamesGameLoansTimeline(long gameId)
+        {
+            return GameLoanService.FindGameLoansTimeline(null, gameId);
+        }
+
+        [HttpPost]
         public GameLoan Save([FromBody]GameLoan gameLoan)
         {
             return GameLoanService.Save(gameLoan);
         }
 
-        [HttpPost("[action]")]
-        public GameLoan Update([FromBody]GameLoan gameLoan)
+        [HttpPut("{id}")]
+        public GameLoan Update(long id, [FromBody]GameLoan gameLoan)
         {
-            return GameLoanService.Update(gameLoan);
+            return GameLoanService.Update(id, gameLoan);
         }
 
-        [HttpPost("[action]")]
-        public void Delete([FromBody]GameLoan gameLoan)
+        [HttpDelete("{id}")]
+        public void Delete(long id)
         {
-            GameLoanService.Delete(gameLoan);
+            GameLoanService.Delete(GameLoanService.FindGameLoanById(id));
         }
     }
 }

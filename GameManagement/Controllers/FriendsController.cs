@@ -7,45 +7,45 @@ using Microsoft.AspNetCore.Mvc;
 namespace GameManagement.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/api/[controller]")]
     [Authorize(Policy = GameManagerServices.ADMIN_ROLE_POLICY)]
-    public class FriendController : Controller
+    public class FriendsController : Controller
     {
         public IFriendService FriendService { get; set; }
 
-        public FriendController(IFriendService friendService)
+        public FriendsController(IFriendService friendService)
         {
             FriendService = friendService;
         }
 
-        [HttpGet("[action]")]
+        [HttpGet("{id}")]
         public Friend FindFriendById(long id)
         {
             return FriendService.FindFriendById(id);
         }
 
-        [HttpGet("[action]")]
+        [HttpGet("{pageSize}/{page}/{name?}")]
         public PagedResult<Friend> FindFriendsByName(int page, int pageSize, string name)
         {
             return FriendService.FindFriendsByName(page, pageSize, name);
         }
 
-        [HttpPost("[action]")]
+        [HttpPost]
         public Friend Save([FromBody]Friend friend)
         {
             return FriendService.Save(friend);
         }
 
-        [HttpPost("[action]")]
-        public Friend Update([FromBody]Friend friend)
+        [HttpPut("{id}")]
+        public Friend Update(long id, [FromBody]Friend friend)
         {
-            return FriendService.Update(friend);
+            return FriendService.Update(id, friend);
         }
 
-        [HttpPost("[action]")]
-        public void Delete([FromBody]Friend friend)
+        [HttpDelete("{id}")]
+        public void Delete(long id)
         {
-            FriendService.Delete(friend);
+            FriendService.Delete(FriendService.FindFriendById(id));
         }
     }
 }

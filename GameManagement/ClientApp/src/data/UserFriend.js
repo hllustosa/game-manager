@@ -2,17 +2,17 @@ import Axios from "axios";
 import { getAuthHeader } from "./Utils";
 
 const GAMELOANS_BYDATE_ENDPOINT =
-  "/FriendUser/FindGameLoansByDate?Page={0}&PageSize={1}&initialDate={2}&finalDate={3}";
+  "/api/FriendUsers/loans/{1}/{0}/{2}/{3}";
 
 const GAMES_BYNAME_ENDPOINT =
-  "/FriendUser/FindGamesByName?Page={0}&PageSize={1}&name={2}";
+  "/api/FriendUsers/games/{1}/{0}/{2}";
 
 export function GetLoans(page, initialDate, finalDate) {
   const headers = getAuthHeader();
   const addr = GAMELOANS_BYDATE_ENDPOINT.replace("{0}", page)
     .replace("{1}", "10")
-    .replace("{2}", initialDate ? initialDate : "")
-    .replace("{3}", finalDate ? finalDate : "");
+    .replace("{2}", initialDate ? initialDate : "0001-01-01")
+    .replace("{3}", finalDate ? finalDate : "9999-12-31");
 
   return Axios.get(addr, { headers });
 }

@@ -1,12 +1,12 @@
 import Axios from "axios";
-import { getAuthHeader, DoPost } from "./Utils";
+import { getAuthHeader, DoPost, DoPut, DoDelete } from "./Utils";
 
 const GAMES_BYNAME_ENDPOINT =
-  "/Game/FindGamesByName?Page={0}&PageSize={1}&name={2}";
+  "/api/Games/{1}/{0}/{2}";
 
-const SAVE_ENDPOINT = "/Game/Save";
-const UPDATE_ENDPOINT = "/Game/Update";
-const DELETE_ENDPOINT = "/Game/Delete";
+const SAVE_ENDPOINT = "/api/Games/";
+const UPDATE_ENDPOINT = "/api/Games/{0}";
+const DELETE_ENDPOINT = "/api/Games/{0}";
 
 export function GetGames(page, name) {
   const headers = getAuthHeader();
@@ -23,9 +23,9 @@ export function SaveGame(game) {
 }
 
 export function UpdateGame(game) {
-  return DoPost(UPDATE_ENDPOINT, game);
+  return DoPut(UPDATE_ENDPOINT.replace("{0}", game.id), game);
 }
 
 export function DeleteGame(game) {
-  return DoPost(DELETE_ENDPOINT, game);
+  return DoDelete(DELETE_ENDPOINT.replace("{0}", game.id), game);
 }

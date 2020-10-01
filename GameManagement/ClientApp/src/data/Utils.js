@@ -66,3 +66,13 @@ export function DoPost(addr, obj) {
   const headers = getAuthHeader();
   return Axios.post(addr, obj, { headers });
 }
+
+export function DoPut(addr, obj) {
+    const headers = getAuthHeader();
+    return Axios.put(addr, obj, { headers });
+}
+
+export function DoDelete(addr, obj) {
+    const headers = getAuthHeader();
+    return Axios.delete(addr, { headers });
+}

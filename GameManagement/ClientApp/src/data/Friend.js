@@ -1,12 +1,12 @@
 import Axios from "axios";
-import { getAuthHeader, DoPost } from "./Utils";
+import { getAuthHeader, DoPost, DoPut, DoDelete } from "./Utils";
 
 const FRIENDS_BYNAME_ENDPOINT =
-  "/Friend/FindFriendsByName?Page={0}&PageSize={1}&name={2}";
+  "/api/Friends/{1}/{0}/{2}";
 
-const SAVE_ENDPOINT = "/Friend/Save";
-const UPDATE_ENDPOINT = "/Friend/Update";
-const DELETE_ENDPOINT = "/Friend/Delete";
+const SAVE_ENDPOINT = "/api/Friends/";
+const UPDATE_ENDPOINT = "/api/Friends/{0}";
+const DELETE_ENDPOINT = "/api/Friends/{0}";
 
 export function GetFriends(page, name) {
   const headers = getAuthHeader();
@@ -23,9 +23,9 @@ export function SaveFriend(friend) {
 }
 
 export function UpdateFriend(friend) {
-  return DoPost(UPDATE_ENDPOINT, friend);
+    return DoPut(UPDATE_ENDPOINT.replace("{0}", friend.id), friend);
 }
 
 export function DeleteFriend(friend) {
-  return DoPost(DELETE_ENDPOINT, friend);
+    return DoDelete(DELETE_ENDPOINT.replace("{0}", friend.id), friend);
 }

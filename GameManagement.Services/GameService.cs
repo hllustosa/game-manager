@@ -1,9 +1,6 @@
 ﻿using GameManagement.Domain;
 using GameManagement.Repositories.Interfaces;
 using GameManagement.services.interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GameManagement.Services
 {
@@ -28,21 +25,30 @@ namespace GameManagement.Services
 
         public Game Save(Game game)
         {
+            Model.CheckModel(game);
             game.Validate();
             GameRepository.Save(game);
             return game;
         }
 
-        public Game Update(Game game)
+        public Game Update(long id, Game game)
         {
+            Model.CheckModel(game);
             game.Validate();
-            //TODO: Make it impossible to change the game status from here
+
+            var currentGame = GameRepository.FindGamesById(id);
+
+            Model.CheckModel(game);
+            game.Id = currentGame.Id;
+            game.IsLent = currentGame.IsLent;
+            
             GameRepository.Update(game);
             return game;
         }
 
         public void Delete(Game game)
         {
+            Model.CheckModel(game);
             GameRepository.Delete(game);
         }
     }

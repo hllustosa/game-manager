@@ -158,7 +158,8 @@ namespace GameManagement.Services
             try
             {
                 ApplicationDbContext.Database.BeginTransaction();
-                
+                Model.CheckModel(gameLoan);
+
                 var game = GameRepository.FindGamesById(gameLoan.GameId);
                 ValidateGameLoan(gameLoan, game);
 
@@ -182,10 +183,13 @@ namespace GameManagement.Services
             return gameLoan;
         }
 
-        public GameLoan Update(GameLoan gameLoan)
+        public GameLoan Update(long id, GameLoan gameLoan)
         {
             try
             {
+                Model.CheckModel(gameLoan);
+                gameLoan.Id = id;
+
                 ApplicationDbContext.Database.BeginTransaction();
                
                 if(!gameLoan.IsActive)
@@ -213,6 +217,8 @@ namespace GameManagement.Services
             try
             {
                 ApplicationDbContext.Database.BeginTransaction();
+                Model.CheckModel(gameLoan);
+
                 gameLoan = ApplicationDbContext.GameLoans.Find(gameLoan.Id);
                 var game = ApplicationDbContext.Games.Find(gameLoan.GameId);
                 game.IsLent = false;

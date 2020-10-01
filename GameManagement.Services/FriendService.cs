@@ -29,21 +29,29 @@ namespace GameManagement.Services
 
         public Friend Save(Friend friend)
         {
+            Model.CheckModel(friend);
             friend.Validate();
             UserService.CreateUserFromFriend(friend);
             FriendRepository.Save(friend);
             return friend;
         }
 
-        public Friend Update(Friend friend)
+        public Friend Update(long id, Friend friend)
         {
+            Model.CheckModel(friend);
             friend.Validate();
+
+            var currentFriend = FindFriendById(id);
+            Model.CheckModel(currentFriend);
+
+            friend.Id = id;
             FriendRepository.Update(friend);
             return friend;
         }
 
         public void Delete(Friend friend)
         {
+            Model.CheckModel(friend);
             FriendRepository.Delete(friend);
         }
     }
