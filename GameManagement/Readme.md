@@ -11,7 +11,7 @@ Para levantar o sistema execute:
 		dotnet publish -c Release -r ubuntu.18.04-x64 -o bin\dockercontent --self-contained
 		docker-compose up
 
-Após isso a aplicação estará disponível em http://localhost:5000
+Após isso a aplicação estará disponível em http://localhost:5001
 O usuário padrão: admin  senha: admin.
 
 Nota.: Ao cadastrar novos amigos, são criados usuários adicionais com as credenciais:
