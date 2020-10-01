@@ -1,11 +1,9 @@
 import Axios from "axios";
 import { getAuthHeader } from "./Utils";
 
-const GAMELOANS_BYDATE_ENDPOINT =
-  "/api/FriendUsers/loans/{1}/{0}/{2}/{3}";
+const GAMELOANS_BYDATE_ENDPOINT = "/api/FriendUsers/loans/{1}/{0}/{2}/{3}";
 
-const GAMES_BYNAME_ENDPOINT =
-  "/api/FriendUsers/games/{1}/{0}/{2}";
+const GAMES_BYNAME_ENDPOINT = "/api/FriendUsers/games/{1}/{0}/{2}";
 
 export function GetLoans(page, initialDate, finalDate) {
   const headers = getAuthHeader();

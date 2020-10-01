@@ -5,7 +5,9 @@ Sistema para gerência e controle de empréstimo de jogos a amigos. Desenvolvido
 ### Execução
 Para levantar o sistema execute:
 
-		cd GameManagement
+		cd FrontEnd/ClientApp
+		npm run build
+		cd ../../GameManagement
 		dotnet publish -c Release -r ubuntu.18.04-x64 -o bin\dockercontent --self-contained
 		docker-compose up
 

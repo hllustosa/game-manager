@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Axios from "axios";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { Provider, connect } from "react-redux";
 import store from "./redux/store";
@@ -13,6 +14,7 @@ import Friends from "./pages/friends";
 
 const baseUrl = document.getElementsByTagName("base")[0].getAttribute("href");
 const rootElement = document.getElementById("root");
+Axios.defaults.baseURL = "http://localhost:5000";
 
 function App(props) {
   return (

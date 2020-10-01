@@ -1,8 +1,21 @@
 ﻿version: "3.7"
 services:
-  app:
+  back:
     build: "./"
-    container_name: game-manager
+    container_name: game-manager-back
     restart: always
     ports:
       - "5000:80"
+    networks:
+      - net
+  front:
+    build: "../FrontEnd/ClientApp"
+    container_name: game-manager-front
+    restart: always
+    ports:
+      - "5001:80"
+    networks:
+      - net
+networks:
+  net:
+    name: "gml_net"
