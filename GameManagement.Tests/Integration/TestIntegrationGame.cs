@@ -32,7 +32,7 @@ namespace GameManagement.Tests.Integration
 
         private Game RetrieveGame(UserInfo userInfo, long id)
         {
-            var url = "/Game/FindGameById?id=" + id;
+            var url = "/api/Games/" + id;
             var result = TestContext.Get(url, userInfo.Token).Result;
             var findGameResult = result.Content.ReadAsStringAsync().Result;
             var retrievedGame = JsonConvert.DeserializeObject<Game>(findGameResult);
@@ -41,7 +41,7 @@ namespace GameManagement.Tests.Integration
 
         private Game createGame(UserInfo userInfo, Game game)
         {
-            var url = "/Game/Save";
+            var url = "/api/Games/";
             var result = TestContext.Post(url, userInfo.Token, game).Result;
             Assert.Equal(System.Net.HttpStatusCode.OK, result.StatusCode);
             return RetrieveGame(userInfo, game.Id);
@@ -49,16 +49,16 @@ namespace GameManagement.Tests.Integration
 
         private Game updateGame(UserInfo userInfo, Game game)
         {
-            var url = "/Game/Update";
-            var result = TestContext.Post(url, userInfo.Token, game).Result;
+            var url = "/api/Games/"+game.Id;
+            var result = TestContext.Put(url, userInfo.Token, game).Result;
             Assert.Equal(System.Net.HttpStatusCode.OK, result.StatusCode);
             return RetrieveGame(userInfo, game.Id);
         }
 
         private Game deleteGame(UserInfo userInfo, Game game)
         {
-            var url = "/Game/Delete";
-            var result = TestContext.Post(url, userInfo.Token, game).Result;
+            var url = "/api/Games/" + game.Id;
+            var result = TestContext.Delete(url, userInfo.Token, game).Result;
             Assert.Equal(System.Net.HttpStatusCode.OK, result.StatusCode);
             return RetrieveGame(userInfo, game.Id);
         }
@@ -89,7 +89,7 @@ namespace GameManagement.Tests.Integration
             {
                 Id = 1001,
                 Name = "GameTesteUp",
-                IsLent = false,
+                IsLent = true,
                 MediaType = 1,
                 PlataformName = "PlatformTest"
             };

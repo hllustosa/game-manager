@@ -82,6 +82,28 @@ namespace test.utils
             return await Client.PostAsync(url, contentString);
         }
 
+        public async Task<HttpResponseMessage> Put(string url, string token, Object obj)
+        {
+            var jsonContent = JsonConvert.SerializeObject(obj);
+            var contentString = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+            contentString.Headers.ContentType = new
+            MediaTypeHeaderValue("application/json");
+            if (!Client.DefaultRequestHeaders.Contains("Authorization"))
+                Client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
+            return await Client.PutAsync(url, contentString);
+        }
+
+        public async Task<HttpResponseMessage> Delete(string url, string token, Object obj)
+        {
+            var jsonContent = JsonConvert.SerializeObject(obj);
+            var contentString = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+            contentString.Headers.ContentType = new
+            MediaTypeHeaderValue("application/json");
+            if (!Client.DefaultRequestHeaders.Contains("Authorization"))
+                Client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
+            return await Client.DeleteAsync(url);
+        }
+
         public async Task<HttpResponseMessage> Post(string url, string token, MultipartFormDataContent content)
         {
             if (!Client.DefaultRequestHeaders.Contains("Authorization"))

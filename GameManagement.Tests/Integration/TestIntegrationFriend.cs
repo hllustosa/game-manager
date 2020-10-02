@@ -35,7 +35,7 @@ namespace GameManagement.Tests.Integration
 
         private Friend RetrieveFriend(UserInfo userInfo, long id)
         {
-            var url = "/Friend/FindFriendById?id=" + id;
+            var url = "/api/Friends/" + id;
             var result = TestContext.Get(url, userInfo.Token).Result;
             var findFriendResult = result.Content.ReadAsStringAsync().Result;
             var retrievedFriend = JsonConvert.DeserializeObject<Friend>(findFriendResult);
@@ -44,7 +44,7 @@ namespace GameManagement.Tests.Integration
 
         private Friend createFriend(UserInfo userInfo, Friend friend)
         {
-            var url = "/Friend/Save";
+            var url = "/api/Friends";
             var result = TestContext.Post(url, userInfo.Token, friend).Result;
             Assert.Equal(System.Net.HttpStatusCode.OK, result.StatusCode);
             return RetrieveFriend(userInfo, friend.Id);
@@ -52,16 +52,16 @@ namespace GameManagement.Tests.Integration
 
         private Friend updateFriend(UserInfo userInfo, Friend friend)
         {
-            var url = "/Friend/Update";
-            var result = TestContext.Post(url, userInfo.Token, friend).Result;
+            var url = "/api/Friends/" + friend.Id;
+            var result = TestContext.Put(url, userInfo.Token, friend).Result;
             Assert.Equal(System.Net.HttpStatusCode.OK, result.StatusCode);
             return RetrieveFriend(userInfo, friend.Id);
         }
 
         private Friend deleteFriend(UserInfo userInfo, Friend friend)
         {
-            var url = "/Friend/Delete";
-            var result = TestContext.Post(url, userInfo.Token, friend).Result;
+            var url = "/api/Friends/" + friend.Id;
+            var result = TestContext.Delete(url, userInfo.Token, friend).Result;
             Assert.Equal(System.Net.HttpStatusCode.OK, result.StatusCode);
             return RetrieveFriend(userInfo, friend.Id);
         }

@@ -33,7 +33,7 @@ namespace GameManagement.Tests.Integration
 
         private GameLoan RetrieveGameLoan(UserInfo userInfo, long id)
         {
-            var url = "/GameLoan/FindGameLoanById?id=" + id;
+            var url = "/api/GameLoans/" + id;
             var result = TestContext.Get(url, userInfo.Token).Result;
             var findGameLoanResult = result.Content.ReadAsStringAsync().Result;
             var retrievedGameLoan = JsonConvert.DeserializeObject<GameLoan>(findGameLoanResult);
@@ -42,7 +42,7 @@ namespace GameManagement.Tests.Integration
 
         private GameLoan createGameLoan(UserInfo userInfo, GameLoan gameLoan)
         {
-            var url = "/GameLoan/Save";
+            var url = "/api/GameLoans/";
             var result = TestContext.Post(url, userInfo.Token, gameLoan).Result;
             Assert.Equal(System.Net.HttpStatusCode.OK, result.StatusCode);
             return RetrieveGameLoan(userInfo, gameLoan.Id);
@@ -50,23 +50,23 @@ namespace GameManagement.Tests.Integration
 
         private GameLoan updateGameLoan(UserInfo userInfo, GameLoan gameLoan)
         {
-            var url = "/GameLoan/Update";
-            var result = TestContext.Post(url, userInfo.Token, gameLoan).Result;
+            var url = "/api/GameLoans/" + gameLoan.Id;
+            var result = TestContext.Put(url, userInfo.Token, gameLoan).Result;
             Assert.Equal(System.Net.HttpStatusCode.OK, result.StatusCode);
             return RetrieveGameLoan(userInfo, gameLoan.Id);
         }
 
         private GameLoan deleteGame(UserInfo userInfo, GameLoan gameLoan)
         {
-            var url = "/GameLoan/Delete";
-            var result = TestContext.Post(url, userInfo.Token, gameLoan).Result;
+            var url = "/api/GameLoans/" + gameLoan.Id;
+            var result = TestContext.Delete(url, userInfo.Token, gameLoan).Result;
             Assert.Equal(System.Net.HttpStatusCode.OK, result.StatusCode);
             return RetrieveGameLoan(userInfo, gameLoan.Id);
         }
 
         private void createGame(UserInfo userInfo, Game game)
         {
-            var url = "/Game/Save";
+            var url = "/api/Games/";
             var result = TestContext.Post(url, userInfo.Token, game).Result;
             Assert.Equal(System.Net.HttpStatusCode.OK, result.StatusCode);
         }
