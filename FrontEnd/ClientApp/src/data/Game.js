@@ -1,7 +1,7 @@
 import Axios from "axios";
 import { getAuthHeader, DoPost, DoPut, DoDelete } from "./Utils";
 
-const GAMES_BYNAME_ENDPOINT = "/api/Games/{1}/{0}/{2}";
+const GAMES_BYNAME_ENDPOINT = "/api/Games?page={0}&pageSize={1}&name={2}";
 
 const SAVE_ENDPOINT = "/api/Games/";
 const UPDATE_ENDPOINT = "/api/Games/{0}";

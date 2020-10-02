@@ -1,7 +1,7 @@
 import Axios from "axios";
 import { getAuthHeader, DoPost, DoPut, DoDelete } from "./Utils";
 
-const FRIENDS_BYNAME_ENDPOINT = "/api/Friends/{1}/{0}/{2}";
+const FRIENDS_BYNAME_ENDPOINT = "/api/Friends?page={0}&pageSize={1}&name={2}";
 
 const SAVE_ENDPOINT = "/api/Friends/";
 const UPDATE_ENDPOINT = "/api/Friends/{0}";

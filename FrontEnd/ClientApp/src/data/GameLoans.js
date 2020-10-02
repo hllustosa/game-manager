@@ -1,7 +1,7 @@
 import Axios from "axios";
 import { getAuthHeader, DoPost, DoPut, DoDelete } from "./Utils";
 
-const GAMELOANS_BYDATE_ENDPOINT = "/api/GameLoans/{1}/{0}/{2}/{3}";
+const GAMELOANS_BYDATE_ENDPOINT = "/api/GameLoans?page={0}&pageSize={1}&initialDate={2}&finalDate={3}";
 
 const GAMELOANS_FRIENDS_TL_ENDPOINT = "/api/GameLoans/friends/{0}";
 

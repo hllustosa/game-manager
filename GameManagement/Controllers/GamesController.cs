@@ -24,8 +24,8 @@ namespace GameManagement.Controllers
             return GameService.FindGameById(id);
         }
 
-        [HttpGet("{pageSize}/{page}/{name?}")]
-        public PagedResult<Game> FindGamesByName(int page, int pageSize, string name)
+        [HttpGet]
+        public PagedResult<Game> FindGamesByName([FromQuery]int page, [FromQuery]int pageSize, [FromQuery]string name)
         {
             return GameService.FindGamesByName(page, pageSize, name);
         }

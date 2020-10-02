@@ -26,8 +26,8 @@ namespace GameManagement.Controllers
             return GameLoanService.FindGameLoanById(id);
         }
 
-        [HttpGet("{pageSize}/{page}/{initialDate?}/{finalDate?}")]
-        public PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate, DateTime? finalDate)
+        [HttpGet]
+        public PagedResult<GameLoan> FindGameLoansByDate([FromQuery]int page, [FromQuery]int pageSize, [FromQuery]DateTime? initialDate, [FromQuery]DateTime? finalDate)
         {
             return GameLoanService.FindGameLoansByDate(page, pageSize, initialDate, finalDate);
         }

@@ -24,8 +24,8 @@ namespace GameManagement.Controllers
             return FriendService.FindFriendById(id);
         }
 
-        [HttpGet("{pageSize}/{page}/{name?}")]
-        public PagedResult<Friend> FindFriendsByName(int page, int pageSize, string name)
+        [HttpGet]
+        public PagedResult<Friend> FindFriendsByName([FromQuery]int page, [FromQuery]int pageSize, [FromQuery]string name)
         {
             return FriendService.FindFriendsByName(page, pageSize, name);
         }

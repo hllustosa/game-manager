@@ -33,14 +33,14 @@ namespace GameManagement.Controllers
             UserService = userService;
         }
 
-        [HttpGet("games/{pageSize}/{page}/{name?}")]
-        public PagedResult<Game> FindGamesByName(int page, int pageSize, string name)
+        [HttpGet("games")]
+        public PagedResult<Game> FindGamesByName([FromQuery]int page, [FromQuery]int pageSize, [FromQuery]string name)
         {
             return GameService.FindGamesByName(page, pageSize, name);
         }
 
-        [HttpGet("loans/{pageSize}/{page}/{initialDate?}/{finalDate?}")]
-        public PagedResult<GameLoan> FindGameLoansByDate(int page, int pageSize, DateTime? initialDate = null, DateTime? finalDate = null)
+        [HttpGet("loans")]
+        public PagedResult<GameLoan> FindGameLoansByDate([FromQuery]int page, [FromQuery]int pageSize, [FromQuery]DateTime? initialDate = null, [FromQuery]DateTime? finalDate = null)
         {
             var currentUser = UserService.GetCurrentUser();
             var friend = FriendRepository.FindFriendByUserId(currentUser.UserId);
